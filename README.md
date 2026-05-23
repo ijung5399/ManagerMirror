@@ -1,5 +1,7 @@
 # ManagerMirror
 
+> 🇺🇸 English | [🇰🇷 한국어](README.ko.md)
+
 > A structured self-reflection framework for engineering managers navigating the hardest part of the job — people.
 
 Managing systems is finite. Managing people is not. This project helps engineering managers work through real situations, surface blind spots, and build a personal management philosophy — one reflection at a time.
