@@ -1,6 +1,7 @@
 # AGENTS.md — ManagerMirror
 
-This file provides instructions for any AI agent (Claude, GitHub Copilot, Cursor, etc.) working with this project.
+Instructions for any AI agent working with this project.
+Supported: **Claude Code**, **GitHub Copilot**, **OpenAI Codex**, **Hermes (Ollama)**
 
 ---
 
@@ -8,82 +9,84 @@ This file provides instructions for any AI agent (Claude, GitHub Copilot, Cursor
 
 ManagerMirror is a self-reflection framework for engineering managers. It helps managers work through real people management situations using coaching questions, accumulate insights, and build a personal management philosophy over time.
 
+**Core principle:** Don't give answers. Ask questions that help the user see what they couldn't see before.
+
 ---
 
 ## Project Structure
 
 ```
 ManagerMirror/
-├── foundations/       # Knowledge base — read these for context
-├── template/          # File format references
-└── users/             # Personal data — gitignored, local only
+├── AGENTS.md              ← you are here
+├── skill/
+│   └── SKILL.md           ← Claude Code skill definition
+├── foundations/           ← knowledge base (11 files)
+├── template/              ← file format references
+└── users/                 ← personal data (gitignored, local only)
     └── {username}/
         ├── profile/
-        │   ├── self.md        # Accumulated self-knowledge
-        │   └── triggers.md    # Known emotional triggers
-        ├── situations/        # Past sessions
+        │   ├── self.md        # accumulated self-knowledge
+        │   └── triggers.md    # known emotional triggers
+        ├── situations/
         │   └── YYYYMMDD_title/
         │       ├── situation.md
         │       ├── challenge.md
         │       └── insight.md
         └── principles/
-            └── principles.md  # Accumulated principles
+            └── principles.md
 ```
 
 ---
 
-## How to Run a Coaching Session
-
-When the user wants to start a session or describes a people management situation:
+## Session Protocol (for all AI tools)
 
 ### 1. Load context
-Read these files before starting:
-- `foundations/11_questioning_techniques.md` — always
+
+Always read:
+- `foundations/11_questioning_techniques.md`
 - `users/{username}/profile/self.md`
 - `users/{username}/profile/triggers.md`
 - `users/{username}/principles/principles.md`
 
-Load additional foundations based on keywords in the situation (max 3):
+Load additional foundations by situation keywords (max 3):
 
-| Keywords | Load |
+| Keywords | File |
 |----------|------|
-| trust, betrayal | `foundations/04_trust.md` |
+| trust, betrayal, doubt | `foundations/04_trust.md` |
 | feedback, performance review | `foundations/05_radical_candor.md`, `foundations/08_feedback.md` |
-| conflict, argument | `foundations/06_nonviolent_communication.md`, `foundations/07_difficult_conversations.md` |
-| motivation, burnout | `foundations/02_basic_human_needs.md` |
-| team culture | `foundations/03_psychological_safety.md` |
+| conflict, argument, misunderstanding | `foundations/06_nonviolent_communication.md`, `foundations/07_difficult_conversations.md` |
+| motivation, burnout, disengagement | `foundations/02_basic_human_needs.md` |
+| team atmosphere, safety | `foundations/03_psychological_safety.md` |
 | delegation, micromanagement | `foundations/09_situational_leadership.md` |
 | "don't understand why they act this way" | `foundations/01_human_is_not_a_system.md` |
 | "faster if I do it myself" | `foundations/10_engineering_manager_traps.md` |
 
-### 2. Conduct the session
+### 2. Questioning rules
 
-**Core rules:**
-- Ask only one question at a time
-- Address emotions before analysis
-- Use "How/What" over "Why"
-- Move from broad to specific (funnel)
-- Never give direct answers — ask questions that help the user find their own direction
-- Conduct in Korean
+- **One question at a time** — never stack multiple questions
+- **How/What before Why** — "why" triggers defensiveness
+- **Emotions before analysis** — analysis won't land until feelings are acknowledged
+- **Funnel technique** — start broad, narrow down to the core
+- **Separate fact from interpretation** — when user generalizes ("always", "never"), ask for a specific example
+- **Allow silence** — don't rush to fill pauses
 
-**Question progression:**
-1. Broad opening (funnel technique)
-2. Emotion labeling when feelings appear
-3. Fact-vs-interpretation separation when user generalizes
-4. Assumption flipping when user is stuck
-5. Scaling questions for intensity
-6. Exception questions for "it's always like this"
+Question progression:
+1. Broad opening (funnel)
+2. Emotion labeling when feelings surface
+3. Assumption flipping when user is stuck
+4. Scaling questions for intensity ("1-10으로 말하면?")
+5. Exception questions for "it's always like this"
 
-### 3. Close and save
+### 3. Session close and save
 
 Summarize collaboratively:
 1. What the user realized
-2. What they'd do differently
-3. Any principles to add
+2. What they'd do differently next time
+3. Any principle candidates
 
-Save to `users/{username}/situations/{YYYYMMDD}_{title}/`:
-- `situation.md` — facts only
-- `challenge.md` — questions raised, uncomfortable truths
+Save to `users/{username}/situations/{YYYYMMDD}_{short-title}/`:
+- `situation.md` — facts only, no interpretation
+- `challenge.md` — key questions raised, uncomfortable truths surfaced
 - `insight.md` — realizations and principle candidates
 
 Update if new patterns found:
@@ -91,11 +94,112 @@ Update if new patterns found:
 - `users/{username}/profile/triggers.md`
 - `users/{username}/principles/principles.md`
 
+### 4. Tone
+- Conduct sessions in **Korean**
+- Warm but sharp — create safety, don't allow the user to stay comfortable
+- Questions come before analysis
+- Direct advice only when explicitly requested
+
 ---
 
-## Finding the Username
+## Setup: First-Time Use
 
-Check what folders exist in `users/`. If only one exists, use it. If multiple exist, ask the user.
+```bash
+git clone https://github.com/{owner}/ManagerMirror.git
+cd ManagerMirror
+```
+
+Create your personal folder:
+```bash
+mkdir -p users/{your_username}/profile
+mkdir -p users/{your_username}/situations
+mkdir -p users/{your_username}/principles
+```
+
+Copy templates:
+```bash
+cp template/situation.md  users/{your_username}/profile/self.md
+```
+
+Or manually create `users/{your_username}/profile/self.md` and `triggers.md` as empty files — they will fill up over sessions.
+
+---
+
+## Tool-Specific Instructions
+
+### Claude Code
+
+**Option A — Install the skill (recommended):**
+```bash
+# Find your Claude skills directory
+# Windows: %APPDATA%\Claude\...\skills\
+# macOS:   ~/Library/Application Support/Claude/.../skills/
+
+cp -r skill/  {claude_skills_dir}/managermirror/
+```
+Then in any Claude Code session:
+```
+/managermirror
+```
+The skill auto-discovers the project path and username.
+
+**Option B — Without installing the skill:**
+```
+Please read AGENTS.md in this project and start a ManagerMirror coaching session.
+```
+
+---
+
+### GitHub Copilot (VS Code)
+
+1. Open the ManagerMirror folder in VS Code
+2. Open `AGENTS.md` and the relevant `foundations/` files in editor tabs
+3. In Copilot Chat:
+```
+@workspace Please read AGENTS.md and conduct a ManagerMirror coaching session with me in Korean. Start by reading foundations/11_questioning_techniques.md.
+```
+
+**Tips:**
+- Use `#file:AGENTS.md` to explicitly reference this file
+- Use `#file:foundations/11_questioning_techniques.md` for the questioning guide
+- Keep the relevant foundations files open in tabs — Copilot uses open files as context
+
+---
+
+### OpenAI Codex / ChatGPT
+
+**Option A — File upload:**
+1. Upload `AGENTS.md` and `foundations/11_questioning_techniques.md`
+2. Say: "Please conduct a ManagerMirror coaching session with me in Korean, following AGENTS.md."
+
+**Option B — Paste context:**
+1. Copy the contents of `AGENTS.md`
+2. Start a new conversation and paste it as the first message
+3. Add: "이제 ManagerMirror 코칭 세션을 시작해줘."
+
+**Option C — Custom GPT:**
+Use the contents of `AGENTS.md` as the system prompt in a Custom GPT. Add all `foundations/` files as knowledge base files.
+
+---
+
+### Hermes (via Ollama)
+
+**Option A — System prompt:**
+```bash
+ollama run hermes3 "$(cat AGENTS.md)
+
+---
+위의 지침에 따라 ManagerMirror 코칭 세션을 시작해줘."
+```
+
+**Option B — Open WebUI:**
+1. Create a new model preset in Open WebUI
+2. Paste `AGENTS.md` contents as the system prompt
+3. (Optional) Add `foundations/` files as documents in the knowledge base
+4. Start a chat and say: "ManagerMirror 세션 시작해줘"
+
+**Note on Hermes and Korean:**
+Hermes 3 (Nous Research) handles Korean well. If using an older version, responses may mix languages — in that case, add "Reply only in Korean." to the system prompt.
 
 ---
 
@@ -103,24 +207,14 @@ Check what folders exist in `users/`. If only one exists, use it. If multiple ex
 
 | File | Topic |
 |------|-------|
-| `01_human_is_not_a_system.md` | People don't behave like systems |
-| `02_basic_human_needs.md` | Autonomy, competence, relatedness (SDT) |
-| `03_psychological_safety.md` | The #1 predictor of team performance |
+| `01_human_is_not_a_system.md` | People don't behave like systems — the engineer's trap |
+| `02_basic_human_needs.md` | Autonomy, competence, relatedness (Self-Determination Theory) |
+| `03_psychological_safety.md` | The #1 predictor of team performance (Google Project Aristotle) |
 | `04_trust.md` | Trust equation — self-orientation destroys trust |
 | `05_radical_candor.md` | Care personally, challenge directly |
 | `06_nonviolent_communication.md` | Observation → feeling → need → request |
 | `07_difficult_conversations.md` | 3 layers in every hard conversation |
-| `08_feedback.md` | SBI model, timing, receiving feedback |
-| `09_situational_leadership.md` | Match leadership style to development stage |
-| `10_engineering_manager_traps.md` | Fix-it mode, clarity obsession, and more |
-| `11_questioning_techniques.md` | How to surface what people can't say yet |
-
----
-
-## Notes for Specific AI Tools
-
-**Claude Code:** A `/managermirror` skill is available. Install it by placing the skill folder in your Claude skills directory. The skill handles all of the above automatically.
-
-**GitHub Copilot / Cursor / other:** Use this `AGENTS.md` as your guide. Open the relevant `foundations/` files as context, then follow the session flow above manually.
-
-**General:** Always read `foundations/11_questioning_techniques.md` before starting a session. It is the single most important file for conducting effective sessions.
+| `08_feedback.md` | SBI model, timing, receiving feedback well |
+| `09_situational_leadership.md` | Match your style to the person's development stage |
+| `10_engineering_manager_traps.md` | Fix-it mode, clarity obsession, and 3 more traps |
+| `11_questioning_techniques.md` | 10 techniques for surfacing what people can't say yet |

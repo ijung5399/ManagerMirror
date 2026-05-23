@@ -115,23 +115,34 @@ ManagerMirror/
 
 ---
 
-## Claude Code 스킬
+## 지원하는 AI 도구
 
-[Claude Code](https://claude.ai/code)를 사용한다면 `/managermirror` 스킬을 사용할 수 있다.
+ManagerMirror는 파일을 읽을 수 있는 어떤 AI와도 사용할 수 있다. 전체 안내는 [`AGENTS.md`](AGENTS.md)에 있다.
 
-스킬이 자동으로 처리하는 것:
-- 상황에 맞는 foundations 파일 선택적 로드
-- 누적된 profile, triggers, principles 읽기
-- 코칭 질문으로 세션 진행 (한 번에 하나, 감정 먼저)
-- 세션 종료 시 올바른 폴더 구조로 결과 저장
+| AI 도구 | 사용 방법 |
+|---------|----------|
+| **Claude Code** | `skill/SKILL.md` 설치 → `/managermirror` 입력 |
+| **GitHub Copilot** | VS Code에서 프로젝트 열기 → `@workspace`로 `AGENTS.md` 참조 |
+| **OpenAI Codex / ChatGPT** | `AGENTS.md` + 관련 foundations 파일 업로드 |
+| **Hermes (Ollama)** | `AGENTS.md`를 시스템 프롬프트로 사용 |
 
-스킬 폴더를 Claude 스킬 디렉토리에 넣으면 설치된다.
+### Claude Code (완전 자동화)
 
-**세션 시작 방법:**
+```bash
+# Claude 스킬 디렉토리에 복사
+cp -r skill/ {claude_skills_dir}/managermirror/
+```
+
+세션에서:
 ```
 /managermirror
 ```
-또는 직원/팀원 관련 상황을 설명하면 자동 트리거.
+
+프로젝트 위치와 사용자명을 자동으로 감지한다. 별도 설정 불필요.
+
+### 다른 AI 도구
+
+도구별 상세 안내는 [`AGENTS.md`](AGENTS.md)를 참고한다.
 
 ---
 

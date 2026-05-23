@@ -116,17 +116,34 @@ The `foundations/` folder contains 11 reference documents that power the coachin
 
 ---
 
-## Claude Code Skill
+## Supported AI Tools
 
-If you use [Claude Code](https://claude.ai/code), a `/managermirror` skill is available.
+ManagerMirror works with any AI that can read files. Full instructions are in [`AGENTS.md`](AGENTS.md).
 
-It automatically:
-- Loads the relevant foundations based on your situation
-- Reads your accumulated profile, triggers, and principles
-- Guides the session using coaching questions (one at a time, emotion first)
-- Saves session outputs to the correct folder structure at the end
+| AI Tool | How to use |
+|---------|-----------|
+| **Claude Code** | Install `skill/SKILL.md` → type `/managermirror` |
+| **GitHub Copilot** | Open project in VS Code → `@workspace` with `AGENTS.md` |
+| **OpenAI Codex / ChatGPT** | Upload `AGENTS.md` + relevant foundations files |
+| **Hermes (Ollama)** | Use `AGENTS.md` as system prompt |
 
-To install, place the `managermirror/` skill folder in your Claude skills directory.
+### Claude Code (full automation)
+
+```bash
+# Copy skill to your Claude skills directory
+cp -r skill/ {claude_skills_dir}/managermirror/
+```
+
+Then in any session:
+```
+/managermirror
+```
+
+The skill auto-discovers the project location and your username — no configuration needed.
+
+### Other AI tools
+
+See [`AGENTS.md`](AGENTS.md) for step-by-step instructions for each tool.
 
 ---
 
