@@ -21,7 +21,7 @@ ManagerMirror가 제공하는 것:
 - 실제 상황을 기록하고 성찰하는 **구조화된 포맷**
 - GROW 모델 기반으로 답 대신 질문을 통해 스스로 보게 만드는 **코칭 접근법**
 - **역지사지 단계** — 상대방의 입장을 상상하기 어려울 때, 가능한 관점을 가설로 제시하고 함께 탐색
-- 세션을 안내하고 결과를 자동 저장하는 **Claude Code 스킬** (`/managermirror`)
+- **다양한 AI 도구 연동** — Claude Code (`/managermirror`), GitHub Copilot, ChatGPT, Hermes (Ollama) 등 파일을 읽을 수 있는 모든 AI에서 사용 가능
 
 ---
 

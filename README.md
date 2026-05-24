@@ -21,7 +21,7 @@ ManagerMirror provides:
 - A **structured format** for recording and reflecting on real situations
 - A **coaching approach** that uses the GROW model and surfaces questions rather than prescribing answers
 - **Perspective-taking** — when you can't understand the other side, the skill helps you generate plausible hypotheses and explore them
-- A **Claude Code skill** (`/managermirror`) that guides sessions and saves results automatically
+- **AI tool integration** — works with Claude Code (`/managermirror`), GitHub Copilot, ChatGPT, Hermes (Ollama), or any AI that can read files
 
 ---
 
