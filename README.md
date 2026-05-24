@@ -61,20 +61,9 @@ git clone https://github.com/{your-username}/ManagerMirror.git
 cd ManagerMirror
 ```
 
-Create your personal folder:
-```
-users/
-└── {your_username}/
-    ├── profile/
-    │   ├── self.md        # who you are as a manager (builds over time)
-    │   └── triggers.md    # what sets you off and why
-    ├── situations/        # one folder per session
-    ├── principles/
-    │   └── principles.md  # your accumulated principles
-    └── log/               # raw session logs (optional)
-```
+Then start a session with your AI tool of choice. See [Supported AI Tools](#supported-ai-tools) below.
 
-Use `template/` as a reference for each file format.
+Your personal folder (`users/{your_username}/`) is created automatically as sessions progress — no manual setup needed.
 
 > Your `users/` folder is listed in `.gitignore` and will **never be committed**. Your data stays local.
 

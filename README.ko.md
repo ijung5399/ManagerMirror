@@ -61,20 +61,9 @@ git clone https://github.com/{your-username}/ManagerMirror.git
 cd ManagerMirror
 ```
 
-개인 폴더를 만든다:
-```
-users/
-└── {your_username}/
-    ├── profile/
-    │   ├── self.md        # 매니저로서 나 자신에 대한 이해 (누적)
-    │   └── triggers.md    # 나를 흔드는 상황과 그 이유
-    ├── situations/        # 세션당 하나의 폴더
-    ├── principles/
-    │   └── principles.md  # 누적된 원칙
-    └── log/               # 세션 원본 기록 (선택)
-```
+이후 원하는 AI 도구로 세션을 시작한다. 아래 [지원하는 AI 도구](#지원하는-ai-도구) 참고.
 
-각 파일 형식은 `template/`을 참고한다.
+개인 폴더(`users/{your_username}/`)는 세션이 진행되면서 자동으로 생성된다 — 별도 설정 불필요.
 
 > `users/` 폴더는 `.gitignore`에 의해 **커밋되지 않는다**. 개인 데이터는 로컬에만 존재한다.
 
