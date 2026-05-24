@@ -51,6 +51,8 @@ If multiple folders exist, ask the user which one to use.
 | "don't understand why they act this way" | `foundations/01_human_is_not_a_system.md` |
 | "faster if I do it myself" | `foundations/10_engineering_manager_traps.md` |
 | manager silence, vague feedback, PIP, promotion blocked, "why won't they say it", engineer perspective | `foundations/12_what_managers_cant_say.md` |
+| engineer navigating manager, managing up, 1:1, career advocacy, skip-level, feedback to manager | `foundations/13_engineer_managing_up.md` |
+| managing engineers, engineer mindset, technical team, deep work, seniority expectations | `foundations/14_manager_managing_engineers.md` |
 
 ---
 

@@ -79,7 +79,7 @@ ManagerMirror/
 ├── README.ko.md            # 한국어
 ├── skill/
 │   └── SKILL.md            # Claude Code 스킬 정의
-├── foundations/            # 공유 지식 베이스 (12개 파일)
+├── foundations/            # 공유 지식 베이스 (14개 파일)
 │   ├── 01_human_is_not_a_system.md
 │   ├── 02_basic_human_needs.md
 │   ├── 03_psychological_safety.md
@@ -91,7 +91,9 @@ ManagerMirror/
 │   ├── 09_situational_leadership.md
 │   ├── 10_engineering_manager_traps.md
 │   ├── 11_questioning_techniques.md
-│   └── 12_what_managers_cant_say.md
+│   ├── 12_what_managers_cant_say.md
+│   ├── 13_engineer_managing_up.md
+│   └── 14_manager_managing_engineers.md
 ├── template/               # 파일 형식 레퍼런스
 │   ├── situation.md
 │   ├── challenge.md
@@ -108,7 +110,7 @@ ManagerMirror/
 
 ## 지식 베이스 (foundations/)
 
-코칭 세션의 기반이 되는 12개의 레퍼런스 문서:
+코칭 세션의 기반이 되는 14개의 레퍼런스 문서:
 
 | 파일 | 주제 |
 |------|------|
@@ -124,6 +126,8 @@ ManagerMirror/
 | `10` | 엔지니어링 매니저의 함정 — Fix-it 모드, 명확성 강박 외 |
 | `11` | 질문 기술 — 말하지 못하는 것을 끌어내는 방법 |
 | `12` | 매니저가 말하지 못하는 것들 — 법적·HR·조직·심리적 제약이 만드는 침묵과 간접 표현의 이해 |
+| `13` | 엔지니어가 매니저를 대하는 방법 — 가시성 확보, 1:1 활용, 피드백 채널, 커리어 주도권 |
+| `14` | 매니저가 엔지니어를 대하는 방법 — 엔지니어 마인드셋, 집중 보호, 시니어리티 기대치, 조기 피드백 |
 
 ---
 

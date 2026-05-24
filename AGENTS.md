@@ -244,3 +244,5 @@ Hermes 3 (Nous Research) handles Korean well. If using an older version, respons
 | `10_engineering_manager_traps.md` | Fix-it mode, clarity obsession, and 3 more traps |
 | `11_questioning_techniques.md` | 10 techniques for surfacing what people can't say yet |
 | `12_what_managers_cant_say.md` | 4 categories of things managers can't say — legal, HR, organizational, psychological. Used in Perspective-Taking (P) stage when the other person is a manager. |
+| `13_engineer_managing_up.md` | Tips for engineers navigating their manager — visibility, 1:1s, feedback channels, career advocacy, escalation. |
+| `14_manager_managing_engineers.md` | Tips for managers handling engineers — engineer mindset, deep work, seniority calibration, early feedback, separating person from performance. |

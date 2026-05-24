@@ -79,7 +79,7 @@ ManagerMirror/
 ├── README.ko.md
 ├── skill/
 │   └── SKILL.md            # Claude Code skill definition
-├── foundations/            # shared knowledge base (12 files)
+├── foundations/            # shared knowledge base (14 files)
 │   ├── 01_human_is_not_a_system.md
 │   ├── 02_basic_human_needs.md
 │   ├── 03_psychological_safety.md
@@ -91,7 +91,9 @@ ManagerMirror/
 │   ├── 09_situational_leadership.md
 │   ├── 10_engineering_manager_traps.md
 │   ├── 11_questioning_techniques.md
-│   └── 12_what_managers_cant_say.md
+│   ├── 12_what_managers_cant_say.md
+│   ├── 13_engineer_managing_up.md
+│   └── 14_manager_managing_engineers.md
 ├── template/               # file format references
 │   ├── situation.md
 │   ├── challenge.md
@@ -108,7 +110,7 @@ ManagerMirror/
 
 ## Foundations Knowledge Base
 
-The `foundations/` folder contains 12 reference documents that power the coaching sessions:
+The `foundations/` folder contains 14 reference documents that power the coaching sessions:
 
 | File | Topic |
 |------|-------|
@@ -124,6 +126,8 @@ The `foundations/` folder contains 12 reference documents that power the coachin
 | `10` | Engineering manager traps — fix-it mode, clarity obsession, and more |
 | `11` | Questioning techniques — how to draw out what people can't say yet |
 | `12` | What managers can't say — legal, HR, organizational, and psychological constraints that explain silence and indirect communication |
+| `13` | Engineer managing up — visibility, 1:1s, feedback channels, career advocacy, escalation |
+| `14` | Manager managing engineers — engineer mindset, deep work, seniority calibration, early feedback |
 
 ---
 
