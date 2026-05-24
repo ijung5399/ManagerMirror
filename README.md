@@ -75,9 +75,9 @@ Type `/managermirror`, then describe your situation. Here's how a session looks 
 
 | | 👨‍💻 Engineer | 👔 Manager |
 |---|---|---|
-| **You describe the situation** | "My manager put me on a PIP last week with no warning. Every 1:1 seemed fine. I don't know what I missed or whether I can trust anything they say." | "I gave my engineer critical feedback in our 1:1 about their communication. They've barely spoken to me since. I don't know if I handled it wrong." |
-| **Claude — Reality** | "Looking back at your last 3–4 1:1s: were there any moments where your manager seemed hesitant, changed the subject, or gave feedback that felt softer than expected?" | "What exactly did you say? As close to your actual words as you can." |
-| **Claude — Perspective** | "What organizational or HR constraints might have limited what your manager could say before this point? *(See foundations/12)*" | "Your engineer went quiet after the feedback. What might they be feeling right now — and what might they be afraid of?" |
+| **You describe the situation** | "I got 'meets expectations' in my annual review. My manager never raised any concerns in our 1:1s all year. I don't know what I missed." | "I gave my engineer critical feedback in our 1:1 about their communication. They've barely spoken to me since. I don't know if I handled it wrong." |
+| **Claude — Reality** | "Looking back at your 1:1s this past year: were there any moments where your manager seemed hesitant, gave softer feedback than you expected, or changed the subject?" | "What exactly did you say? As close to your actual words as you can." |
+| **Claude — Perspective** | "What might have constrained your manager from raising concerns directly — organizationally or personally? *(See foundations/12)*" | "Your engineer went quiet after the feedback. What might they be feeling right now — and what might they be afraid of?" |
 | **Session output** | `situation.md` · `challenge.md` · `insight.md` | `situation.md` · `challenge.md` · `insight.md` |
 
 Each stage surfaces one question at a time. The session ends when you reach a concrete next action — or a principle worth keeping.
