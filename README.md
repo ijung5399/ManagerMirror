@@ -2,32 +2,45 @@
 
 > 🇺🇸 English | [🇰🇷 한국어](README.ko.md)
 
-> A structured self-reflection framework for engineering managers navigating the hardest part of the job — people.
+> A structured coaching framework for anyone navigating the manager-engineer relationship — whether you're the one managing or the one being managed.
 
-Managing systems is finite. Managing people is not. This project helps engineering managers work through real situations, surface blind spots, and build a personal management philosophy — one reflection at a time.
+The hardest part of working in tech isn't the code. It's the people. This project helps you work through real situations, understand the other side's perspective, and build a personal philosophy — one reflection at a time.
+
+Originally built for engineering managers. Now equally useful for engineers trying to understand their managers, navigate difficult dynamics, or process experiences like PIP, performance reviews, or unexpected conflicts.
 
 ---
 
 ## Why This Exists
 
-The transition from engineer to engineering manager is often described as a shift from solving technical problems to solving human ones. The tools are different. The feedback loops are slower. And unlike code, people don't behave predictably.
+The manager-engineer relationship is one of the most consequential — and least understood — dynamics in tech. From the manager's side: giving feedback, handling underperformance, building trust. From the engineer's side: navigating PIPs, understanding why a manager reacted the way they did, or learning how organizational power actually works.
 
-ManagerMirror is a harness for that process. It provides:
+Both sides often lack a structured space to process what happened and build genuine understanding of the other.
+
+ManagerMirror provides:
 - A **knowledge base** of foundational frameworks (psychology, feedback, trust, leadership)
 - A **structured format** for recording and reflecting on real situations
-- A **coaching approach** that surfaces questions rather than prescribing answers
+- A **coaching approach** that uses the GROW model and surfaces questions rather than prescribing answers
+- **Perspective-taking** — when you can't understand the other side, the skill helps you generate plausible hypotheses and explore them
 - A **Claude Code skill** (`/managermirror`) that guides sessions and saves results automatically
 
 ---
 
 ## How It Works
 
+Sessions follow the **GROW model**, extended with a Perspective-Taking stage:
+
 ```
 Real situation
       ↓
-Coaching questions (one at a time, emotion first)
+G — Goal: what do you want from this session?
       ↓
-Insight — what you couldn't see before
+R — Reality: what is actually happening? (one question at a time)
+      ↓
+P — Perspective: what might the other side be thinking, feeling, fearing, needing?
+      ↓
+O — Options: what could you do differently?
+      ↓
+W — Will: what will you actually do?
       ↓
 Principles — accumulated over time
 ```
