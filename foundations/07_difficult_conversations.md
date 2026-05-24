@@ -1,46 +1,48 @@
-# 7. 어려운 대화의 구조
+# 7. The Structure of Difficult Conversations
 
 > — Stone, Patton, Heen, "Difficult Conversations"
 
----
-
-## 어려운 대화가 어려운 이유
-
-모든 어려운 대화에는 세 개의 층이 동시에 진행된다.
-
-### Layer 1: What Happened? (사실 논쟁)
-"누가 옳은가? 누구 잘못인가?"
-
-실제로는 대부분 양쪽 다 자신의 관점에서 옳다.
-같은 사건을 다르게 해석하는 것이 문제의 본질이다.
-
-### Layer 2: Feelings (감정 층)
-이 대화가 감정적으로 나에게 어떤 의미인가?
-
-말하지 않은 감정은 사라지지 않는다. 결국 대화 중에 새어나온다.
-감정을 명시적으로 다루지 않으면 대화는 진전되지 않는다.
-
-### Layer 3: Identity (정체성 층)
-"이것이 나라는 사람에 대해 뭘 말하는가?"
-
-- "나는 좋은 매니저인가?"
-- "나는 공정한 사람인가?"
-- "나는 유능한가?"
-
-가장 보이지 않지만 가장 강력하게 반응을 촉발하는 층이다.
+> [🇰🇷 한국어](../foundations.ko/07_어려운_대화의_구조.md)
 
 ---
 
-## 실천 원칙
+## Why Difficult Conversations Are Difficult
 
-**1. 설득하려 하지 말고 이해하려 한다.**
-"나는 옳고 너는 틀렸다"에서 "우리는 다르게 보고 있다"로.
+Every difficult conversation runs three layers simultaneously.
 
-**2. 내 이야기와 상대의 이야기를 분리한다.**
-같은 사건에 대해 둘 다 이야기를 가지고 있다. 어느 쪽이 "사실"인지를 다투는 것이 아니라 각자의 이야기를 이해하는 것이 목적이다.
+### Layer 1: What Happened? (The Factual Dispute)
+"Who is right? Whose fault is it?"
 
-**3. 감정을 대화에 들여온다.**
-"이 상황이 나를 불안하게 만들어"라고 말하는 것은 약함이 아니라 대화를 진전시키는 도구다.
+In reality, both sides are usually right from their own perspective.
+The real problem is that both are interpreting the same event differently.
 
-**4. 정체성 층을 인식한다.**
-상대가 과도하게 방어적이라면, 이 대화가 그 사람의 정체성을 위협하고 있을 가능성이 높다.
+### Layer 2: Feelings (The Emotional Layer)
+What does this conversation mean to me emotionally?
+
+Unspoken feelings don't disappear. They leak out during the conversation.
+Without explicitly addressing emotions, the conversation cannot move forward.
+
+### Layer 3: Identity (The Identity Layer)
+"What does this say about me as a person?"
+
+- "Am I a good manager?"
+- "Am I a fair person?"
+- "Am I competent?"
+
+The most invisible layer, yet the most powerful trigger of defensive reactions.
+
+---
+
+## Guiding Principles
+
+**1. Seek to understand, not to persuade.**
+Move from "I'm right and you're wrong" to "we're seeing this differently."
+
+**2. Separate your story from the other person's story.**
+Both of you have a story about the same event. The goal is not to fight over which one is "the truth" but to understand each perspective.
+
+**3. Bring feelings into the conversation.**
+Saying "this situation makes me anxious" is not weakness — it is a tool that moves the conversation forward.
+
+**4. Recognize the identity layer.**
+If the other person is over-reacting defensively, this conversation is likely threatening their sense of who they are.

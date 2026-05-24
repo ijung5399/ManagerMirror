@@ -1,38 +1,40 @@
-# 3. 심리적 안전감 (Psychological Safety)
+# 3. Psychological Safety
 
-> 고성과 팀을 만드는 가장 중요한 단일 요소. — Amy Edmondson / Google Project Aristotle
+> The single most important factor in building high-performing teams. — Amy Edmondson / Google Project Aristotle
+
+> [🇰🇷 한국어](../foundations.ko/03_심리적_안전감.md)
 
 ---
 
-## 정의
+## Definition
 
-"이 팀에서는 위험을 감수해도 안전하다"는 공유된 믿음.
-실수해도 비난받지 않고, 질문해도 무시당하지 않으며, 반대 의견을 내도 보복당하지 않는다는 신뢰.
+The shared belief that "it is safe to take risks on this team."
+Trust that mistakes won't be punished, questions won't be dismissed, and dissenting opinions won't invite retaliation.
 
-## 왜 중요한가
+## Why It Matters
 
-Google의 Project Aristotle (2012-2015): 팀 성과를 예측하는 변수 5가지 중 1위가 심리적 안전감이었다. 구성원의 역량보다 더 중요한 요소였다.
+Google's Project Aristotle (2012–2015): Of the five variables that predicted team performance, psychological safety ranked first — more important than the individual capabilities of team members.
 
-## 심리적 안전감이 없을 때 일어나는 일
+## What Happens Without It
 
-- 사람들은 "안전한 것만" 말한다.
-- 나쁜 소식이 위로 올라오지 않는다.
-- 실수를 숨긴다.
-- 혁신이 멈춘다.
-- 매니저는 현실을 모른 채 결정한다.
+- People say only what feels "safe."
+- Bad news doesn't travel upward.
+- Mistakes get hidden.
+- Innovation stops.
+- Managers make decisions without knowing reality.
 
-## 매니저가 안전감을 무너뜨리는 흔한 패턴
+## Common Manager Patterns That Destroy Safety
 
-- 나쁜 소식을 가져온 사람을 (의도치 않게) 나쁜 사람으로 만듦
-- 회의에서 아이디어를 즉각 비판함
-- 실수에 대해 원인보다 책임을 먼저 물음
-- 감정적으로 반응함 (화, 실망)
+- (Unintentionally) making the bearer of bad news feel like the bad person
+- Immediately criticizing ideas in meetings
+- Asking "whose fault is it?" before asking "what caused it?"
+- Reacting emotionally (anger, disappointment)
 
-## 실천 원칙
+## Guiding Principles
 
-**심리적 안전감은 "좋게 대하는 것"이 아니라 "말해도 된다는 신호를 지속적으로 보내는 것"이다.**
+**Psychological safety is not about "being nice." It is about continuously signaling that speaking up is okay.**
 
-- 나쁜 소식을 가져오면 "알려줘서 고마워"를 먼저 한다.
-- 실수를 공개할 때 매니저가 먼저 자신의 실수를 공유한다.
-- "멍청한 질문"은 없다는 것을 행동으로 보여준다.
-- 회의에서 제일 늦게 의견을 말한다 (매니저 의견이 먼저 나오면 다른 사람은 침묵함).
+- When someone brings bad news, say "thank you for telling me" first.
+- When acknowledging mistakes publicly, share your own first.
+- Show through action that there are no stupid questions.
+- Be the last to speak in meetings — when the manager speaks first, everyone else goes quiet.

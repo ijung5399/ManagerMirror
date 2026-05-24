@@ -1,49 +1,49 @@
-# 5. Radical Candor (솔직한 돌봄)
+# 5. Radical Candor
 
 > — Kim Scott, "Radical Candor"
 
+> [🇰🇷 한국어](../foundations.ko/05_급진적_솔직함.md)
+
 ---
 
-## 두 축
+## The Two Axes
 
 ```
-                    직접적으로 도전 (Challenge Directly)
-                            ↑
-          Obnoxious         |         Radical
-          Aggression        |         Candor
-          (무례한 공격)      |         (솔직한 돌봄)
-                            |
-개인적    ←────────────────────────────────→    개인적
-돌봄 없음                   |                   돌봄 있음
-                            |
-          Manipulative      |         Ruinous
-          Insincerity       |         Empathy
-          (교묘한 불성실)    |         (파괴적 공감)
-                            ↓
-                    직접적 도전 없음
+                   Challenge Directly
+                          ↑
+         Obnoxious        |        Radical
+         Aggression       |        Candor
+                          |
+Care    ←─────────────────────────────────→  Care
+Nothing                   |                  Personally
+                          |
+         Manipulative     |        Ruinous
+         Insincerity      |        Empathy
+                          ↓
+                   Don't Challenge
 ```
 
-## 4가지 유형
+## The Four Quadrants
 
-### Radical Candor (목표)
-개인적으로 돌보면서 직접적으로 말한다.
-"너를 위해서 이걸 말하는 거야."
+### Radical Candor (the goal)
+Care personally while challenging directly.
+"I'm telling you this because I care about you."
 
-### Ruinous Empathy (가장 흔한 함정)
-상처 줄까봐 진실을 말하지 않는다.
-→ 단기적으로 편하지만, 장기적으로 직원과 팀 모두에게 해롭다.
-→ 엔지니어링 매니저에게 특히 흔함: 갈등 회피 + 논리적으로 "지금 말해봐야 소용없다"는 합리화.
+### Ruinous Empathy (the most common trap)
+You don't say the truth because you don't want to hurt someone.
+→ Comfortable in the short term, harmful to both the employee and the team over time.
+→ Especially common for engineering managers: conflict avoidance + the rational excuse that "saying it now won't help."
 
 ### Obnoxious Aggression
-직접적이지만 돌봄이 없다.
-"틀렸어. 그게 문제야." — 기술적으로 맞아도 관계를 해친다.
+Direct, but without care.
+"You're wrong. That's the problem." — Technically correct, but damages the relationship.
 
 ### Manipulative Insincerity
-돌봄도 없고 직접적이지도 않다. 정치적 행동.
+No care and no directness. Political behavior.
 
-## 실천 원칙
+## Guiding Principles
 
-- 칭찬도 구체적으로 한다 ("잘했어" → "그 미팅에서 상대 의견을 요약해서 확인한 것이 좋았어").
-- 비판은 즉시, 개인적으로 한다 (공개 비판은 공격이 됨).
-- "나는 틀릴 수 있어, 하지만..."으로 시작하면 덜 방어적이 됨.
-- 피드백 후 상대 반응을 들을 준비를 한다.
+- Make praise specific. ("Good job" → "The way you summarized and confirmed the other side's point in that meeting worked really well.")
+- Give criticism immediately and privately. Public criticism becomes an attack.
+- Starting with "I could be wrong, but…" lowers defensiveness.
+- After giving feedback, be ready to listen to the response.

@@ -1,71 +1,73 @@
-# 10. 엔지니어링 매니저의 특유 함정
+# 10. Engineering Manager Traps
 
-> IC(Individual Contributor)에서 Manager로 전환할 때 가장 많이 걸리는 패턴들.
+> The most common patterns that catch people in the transition from IC to Manager.
 
----
-
-## 함정 1: Fix-it Mode
-
-**패턴**: 직원이 문제를 가져오면 즉시 해결책을 제시한다.
-
-**왜 빠지나**: 엔지니어로서 문제를 빠르게 해결하는 것이 미덕이었으므로.
-
-**문제**: 직원은 해결책이 아니라 들어주기를 원하는 경우가 많다. 매번 답을 줄수록 직원의 자율성과 성장이 멈춘다.
-
-**대안**: "어떻게 생각해? 어떤 옵션을 고려하고 있어?" 먼저 묻는다.
+> [🇰🇷 한국어](../foundations.ko/10_엔지니어링_매니저_함정.md)
 
 ---
 
-## 함정 2: 명확성 강박
+## Trap 1: Fix-it Mode
 
-**패턴**: 모든 것을 명확하게 정의하고 싶어한다. 모호함을 참지 못한다.
+**Pattern**: When someone brings a problem, immediately offer a solution.
 
-**왜 빠지나**: 기술 시스템은 명확한 스펙이 있어야 작동하므로.
+**Why it happens**: As an engineer, solving problems quickly was a virtue.
 
-**문제**: 사람의 감정, 관계, 팀 문화는 본질적으로 모호하다. 모든 것을 명확하게 만들려 하면 사람을 불편하게 만든다.
+**The problem**: People often want to be heard, not handed a solution. The more you provide answers, the more autonomy and growth stagnate.
 
-**대안**: 모호함과 함께 앉아 있는 연습을 한다. "지금 당장 결론이 없어도 괜찮아"를 말할 수 있어야 한다.
-
----
-
-## 함정 3: 성과 = 결과물
-
-**패턴**: 눈에 보이는 산출물(코드, 문서, 기능)로 성과를 측정하려 한다.
-
-**왜 빠지나**: IC일 때는 그것이 실제 성과였으므로.
-
-**문제**: 매니저의 성과는 팀의 성과이고, 팀의 성과는 관계와 신뢰 위에 쌓인다. 관계 투자는 단기 산출물이 없다.
-
-**대안**: "이 1:1이 이 사람의 성장과 신뢰에 기여했나?"를 성과로 본다.
+**Alternative**: Start with "What do you think? What options are you considering?"
 
 ---
 
-## 함정 4: 논리로 감정을 해결하려 함
+## Trap 2: Compulsive Clarity
 
-**패턴**: 직원이 감정적으로 반응할 때 논리적 근거로 설득하려 한다.
+**Pattern**: Wanting to define everything precisely. Unable to tolerate ambiguity.
 
-**왜 빠지나**: 논리가 효과적인 도구였고, 감정은 다루기 불편하므로.
+**Why it happens**: Technical systems require clear specs to function.
 
-**문제**: 감정이 먼저 인정받지 않으면 논리는 들리지 않는다. 순서가 있다: 감정 먼저, 논리 다음.
+**The problem**: Human emotions, relationships, and team culture are inherently ambiguous. Trying to make everything explicit makes people uncomfortable.
 
-**대안**: "그게 힘들었겠다"를 먼저 하고, 해결책은 나중에.
-
----
-
-## 함정 5: 직접 하는 것이 빠르다
-
-**패턴**: 위임하면 느리고 품질이 낮아질 것 같아서 직접 한다.
-
-**왜 빠지나**: 실제로 단기적으로는 맞는 말이므로.
-
-**문제**: 장기적으로 팀이 성장하지 못한다. 매니저의 병목이 된다. 직원은 신뢰받지 못한다고 느낀다.
-
-**대안**: "이 사람이 이것을 해낼 수 있게 하려면 내가 무엇을 해야 하나?"로 질문을 바꾼다.
+**Alternative**: Practice sitting with ambiguity. Be able to say "it's okay if we don't have a conclusion right now."
 
 ---
 
-## 메타 함정: 나는 좋은 매니저인가?
+## Trap 3: Performance = Output
 
-이 질문에 집착할 때 가장 큰 문제가 생긴다.
-자기 평가에 집중할수록 직원에게 집중하지 못한다.
-**관심의 방향을 나 → 상대방으로 돌리는 것이 모든 함정의 해결책이다.**
+**Pattern**: Measuring performance by visible deliverables (code, docs, features).
+
+**Why it happens**: As an IC, that was the actual output.
+
+**The problem**: A manager's performance is the team's performance, and that is built on relationships and trust. Investing in relationships has no short-term deliverable.
+
+**Alternative**: Ask "did this 1:1 contribute to this person's growth and our trust?" and treat that as output.
+
+---
+
+## Trap 4: Using Logic to Resolve Emotions
+
+**Pattern**: When someone reacts emotionally, respond with logical arguments.
+
+**Why it happens**: Logic was an effective tool, and emotions are uncomfortable to handle.
+
+**The problem**: Logic cannot be heard until the emotion is acknowledged first. The sequence matters: emotions first, then logic.
+
+**Alternative**: Start with "that must have been hard," and save the solution for later.
+
+---
+
+## Trap 5: It's Faster If I Just Do It
+
+**Pattern**: Afraid delegation will be slow and low quality, so you do it yourself.
+
+**Why it happens**: In the short term, this is actually true.
+
+**The problem**: Long-term, the team stops growing. The manager becomes the bottleneck. Employees feel they aren't trusted.
+
+**Alternative**: Reframe the question to "what do I need to do so this person can succeed at this?"
+
+---
+
+## The Meta-Trap: Am I a Good Manager?
+
+Obsessing over this question creates the biggest problems.
+The more you focus on self-evaluation, the less you focus on the people you manage.
+**Redirecting attention from yourself to others is the solution to all the traps above.**

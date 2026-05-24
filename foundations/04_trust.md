@@ -1,38 +1,40 @@
-# 4. 신뢰의 구조
+# 4. The Architecture of Trust
 
 > — David Maister, "The Trusted Advisor"
 
+> [🇰🇷 한국어](../foundations.ko/04_신뢰의_구조.md)
+
 ---
 
-## 신뢰 방정식
+## The Trust Equation
 
 ```
-신뢰 = (신용성 + 신뢰성 + 친밀감) / 자기중심성
+Trust = (Credibility + Reliability + Intimacy) / Self-Orientation
 ```
 
-| 요소 | 의미 | 예시 |
-|------|------|------|
-| 신용성 (Credibility) | 말이 믿을 만한가 | 기술적 판단, 전문성 |
-| 신뢰성 (Reliability) | 한 말을 지키는가 | 약속 이행, 일관성 |
-| 친밀감 (Intimacy) | 솔직한 대화가 가능한가 | 개인적 관계, 취약성 공유 |
-| **자기중심성 (Self-Orientation)** | **나의 이익을 먼저 생각하는가** | **분모 — 높을수록 신뢰 낮아짐** |
+| Component | Meaning | Example |
+|-----------|---------|---------|
+| Credibility | Are your words believable? | Technical judgment, expertise |
+| Reliability | Do you keep your word? | Following through, consistency |
+| Intimacy | Is honest conversation possible? | Personal relationship, sharing vulnerability |
+| **Self-Orientation** | **Do you prioritize your own interests?** | **The denominator — higher = less trust** |
 
-## 핵심 통찰
+## Core Insight
 
-**분모인 자기중심성이 신뢰를 가장 크게 무너뜨린다.**
+**Self-orientation in the denominator is what most rapidly destroys trust.**
 
-매니저가 "내 팀 성과를 위해", "내 평가를 위해" 직원을 대한다고 느껴지는 순간 신뢰는 무너진다.
+The moment an employee senses "the manager is doing this for their own metrics, for their own review," trust collapses.
 
-## 신뢰의 특성
+## The Nature of Trust
 
-- 쌓는 데는 오래 걸린다.
-- 무너지는 데는 한 번이면 충분하다.
-- 말보다 행동으로 쌓인다.
-- 일관성이 핵심이다 (좋을 때와 나쁠 때 같은 사람이어야 함).
+- Takes a long time to build.
+- Takes a single moment to break.
+- Built through actions, not words.
+- Requires consistency — being the same person in good times and bad.
 
-## 엔지니어링 매니저에게 흔한 신뢰 파괴 패턴
+## Common Trust-Breaking Patterns for Engineering Managers
 
-- 직원 앞에서는 지지하다가 상위 리더에게는 다른 말을 함
-- 약속을 잊거나 follow-up 없이 넘어감
-- 직원의 이야기를 들을 때 실제로 해결책을 생각하고 있음 (듣는 척)
-- 위에서 압박이 올 때 직원을 보호하지 않음
+- Publicly supporting an employee while saying something different to senior leadership
+- Forgetting commitments or dropping follow-ups without a word
+- Mentally solving problems while pretending to listen
+- Failing to protect employees when pressure comes from above

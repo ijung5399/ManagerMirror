@@ -1,93 +1,95 @@
-# 12. 매니저가 팀원에게 말하지 못하는 것들
+# 12. What Managers Can't Say
 
-> 이 문서는 두 가지 목적으로 사용된다:
-> - **매니저 입장**: 자신이 어떤 제약 안에 있는지 인식하고, 말하지 못하는 것을 어떻게 다루어야 하는지 이해한다.
-> - **엔지니어 입장**: 매니저의 침묵·애매한 표현·간접적 태도가 왜 생기는지 이해하고, 적대적으로 해석하는 실수를 줄인다.
+> This document serves two purposes:
+> - **For managers**: understand the constraints you operate within, and how to handle what you cannot say.
+> - **For engineers**: understand why a manager's silence, vague language, or indirectness happens — and avoid interpreting it as hostility.
 
----
-
-## 카테고리 1: 법적으로 말할 수 없는 것
-
-| 말 못하는 내용 | 이유 | 엔지니어가 오해할 수 있는 것 |
-|--------------|------|--------------------------|
-| 육아휴직·임신·출산이 승진이나 평가에 영향을 준다 | 고용 차별금지법 위반 | "매니저가 내 승진을 막고 있다" |
-| 나이, 성별, 인종, 종교, 장애가 결정에 영향을 준다 | 차별금지법 위반 | "매니저가 나를 싫어한다" |
-| 다른 직원의 급여·성과·평가 | 개인정보·HR 정책 | "나만 이런 대우를 받는다" |
-| 진행 중인 법적 분쟁 관련 사항 | 법적 조언이 필요한 영역 | "회사가 뭔가 숨기고 있다" |
-
-**핵심**: 매니저가 특정 주제에 대해 답을 피하는 것이 반드시 적대적 의도가 아니다. 법적 제약일 수 있다.
+> [🇰🇷 한국어](../foundations.ko/12_매니저가_말하지_못하는_것들.md)
 
 ---
 
-## 카테고리 2: HR·조직 정책상 말할 수 없는 것
+## Category 1: Things Managers Cannot Say Legally
 
-| 말 못하는 내용 | 이유 | 엔지니어가 오해할 수 있는 것 |
-|--------------|------|--------------------------|
-| "네 성과 때문이 아니야, 헤드카운트가 동결됐어" | 조직 정보 기밀 | "내가 능력이 없어서 승진 못 하는 거다" |
-| 아직 발표 전인 레이오프·구조조정 계획 | 정보 공개 시점 통제 | "매니저가 나를 안심시키려고 거짓말한다" |
-| 진행 중인 다른 직원의 PIP·징계 | HR 기밀 | "왜 저 사람은 저래도 아무 일이 없지?" |
-| 상위 조직의 실제 예산 상황 | 전략 정보 기밀 | "매니저가 내 요청을 무시한다" |
+| What Can't Be Said | Why | What Engineers Might Misread |
+|-------------------|-----|------------------------------|
+| Parental leave, pregnancy, or childbirth affected the promotion or review decision | Employment discrimination law | "My manager is blocking my promotion" |
+| Age, gender, race, religion, or disability influenced a decision | Anti-discrimination law | "My manager just doesn't like me" |
+| Another employee's salary, performance, or evaluation | Privacy / HR policy | "I'm the only one being treated this way" |
+| Anything related to ongoing litigation | Requires legal counsel | "The company is hiding something" |
 
-**핵심**: 매니저의 "지금은 말할 수 없어"는 종종 실제로 말할 수 없는 상황이다.
-
----
-
-## 카테고리 3: 조직·정치적 이유로 말하기 어려운 것
-
-| 말 못하는 내용 | 이유 | 엔지니어가 오해할 수 있는 것 |
-|--------------|------|--------------------------|
-| "나도 이 결정에 동의 안 해" | 리더십 alignment 유지 의무 | "매니저도 우리 편인데 아무것도 안 한다" |
-| "저 상위 리더가 문제야" | 조직 내 정치적 생존 | "매니저가 겁쟁이다" |
-| "이 프로젝트는 곧 없어질 거야" | 모멘텀 유지·공식 발표 전 | "왜 이 프로젝트를 계속 시키는 거지?" |
-| 다른 팀·매니저와의 갈등 상황 | 조직 내 관계 관리 | "매니저가 나를 보호하지 않는다" |
-
-**핵심**: 매니저도 자신의 조직 안에서 움직일 수 있는 범위가 있다. 그 범위를 넘는 것은 매니저 자신에게도 위험이다.
+**Key insight**: When a manager avoids a topic, it isn't necessarily hostile intent. It may be a legal constraint.
 
 ---
 
-## 카테고리 4: 심리적으로 말하지 못하는 것 ← 가장 많고 가장 큰 영향
+## Category 2: Things Managers Cannot Say Due to HR or Org Policy
 
-| 말 못하는 내용 | 실제 심리 | 엔지니어가 오해할 수 있는 것 |
-|--------------|----------|--------------------------|
-| "솔직히 네가 이 역할에 맞지 않는 것 같아" | 관계 손상·반발 두려움 | "매니저가 내 잠재력을 못 본다" |
-| "이 속도로는 내년에도 승진 못 할 거야" | 희망을 꺾는 것에 대한 죄책감 | "매니저가 내 미래에 관심 없다" |
-| "사실 나도 어떻게 도와야 할지 모르겠어" | 능력 부족 노출 두려움 | "매니저가 나를 포기했다" |
-| "다른 팀원들이 너 때문에 힘들다고 해" | 직접 대면 회피 | "매니저가 뒤에서 나를 흉본다" |
-| "나는 지금 네가 HR에 달려갈까봐 두려워" | 자신의 취약성 노출 두려움 | "매니저가 나를 무시한다" |
-| "네가 한 거라고 적었지만 방향은 내가 다 잡았어" | 직접 충돌 회피 | "매니저가 내 공로를 인정한다" |
-| "나도 위에서 압박을 받고 있어" | 약한 모습 보이기 싫음 | "매니저가 나한테만 엄격하다" |
+| What Can't Be Said | Why | What Engineers Might Misread |
+|-------------------|-----|------------------------------|
+| "It's not your performance — headcount is frozen" | Org information is confidential | "I must not be good enough to get promoted" |
+| Upcoming layoff or reorg not yet announced | Controlled timing of disclosure | "My manager is lying to keep me calm" |
+| Another employee's PIP or disciplinary action | HR confidentiality | "Why does nothing happen to that person?" |
+| Actual budget situation above the team level | Strategic information | "My manager is ignoring my requests" |
 
-**핵심**: 심리적 제약은 가장 자주, 가장 크게 소통을 막는다. 그리고 이것은 엔지니어만의 문제가 아니라 매니저 자신도 종종 인식 못 한다.
+**Key insight**: When a manager says "I can't share that right now," they often literally cannot.
 
 ---
 
-## 역지사지 활용 가이드
+## Category 3: Things That Are Hard to Say for Political Reasons
 
-### 엔지니어가 매니저를 이해할 때
+| What Can't Be Said | Why | What Engineers Might Misread |
+|-------------------|-----|------------------------------|
+| "I don't agree with this decision either" | Obligation to maintain leadership alignment | "My manager agrees with us but won't do anything" |
+| "That senior leader is the problem" | Political survival within the org | "My manager is a coward" |
+| "This project is going away soon" | Maintaining momentum before official announcement | "Why do they keep making us work on this?" |
+| Conflict between teams or managers | Managing internal relationships | "My manager isn't protecting me" |
 
-매니저가 애매하게 말하거나 직접 답하지 않을 때, 먼저 이 질문들을 해볼 것:
-
-1. **법적·HR 제약인가?** — 육아, 급여, 다른 직원 이야기가 포함되어 있는가?
-2. **조직 기밀인가?** — 아직 발표 안 된 정보가 관련되어 있는가?
-3. **정치적 제약인가?** — 매니저가 자신의 상사와 연관된 말을 피하고 있는가?
-4. **심리적 회피인가?** — 매니저가 갈등을 피하고 있는 패턴이 있는가?
-
-### 매니저가 자신의 제약을 인식할 때
-
-말하지 못하는 이유를 알면 대안을 찾을 수 있다:
-
-| 제약 유형 | 대안 표현 |
-|----------|----------|
-| 법적 제약 | "그 부분은 내가 직접 언급하기 어려운 영역이야. HR과 이야기해보는 게 좋을 것 같아." |
-| 조직 기밀 | "지금 당장 구체적으로 말하기 어렵지만, [X 시점]에 더 명확해질 거야." |
-| 정치적 제약 | "내가 모든 맥락을 공유하긴 어렵지만, 내가 할 수 있는 건 [Y]야." |
-| 심리적 회피 | — 이건 대안 표현보다 용기가 먼저다. Radical Candor 참고. |
+**Key insight**: Managers have a range of motion within their organization. Stepping outside it carries risk for them too.
 
 ---
 
-## 연결 문서
+## Category 4: Things Managers Cannot Say Psychologically ← The Most Common and Most Impactful
 
-- `05_radical_candor.md` — 말하기 어려운 것을 말하는 방법
-- `06_nonviolent_communication.md` — 제약 안에서도 진실을 전달하는 언어
-- `07_difficult_conversations.md` — 말 못하는 것이 쌓일 때 대화가 어떻게 무너지는가
-- `11_questioning_techniques.md` — 상대의 제약을 읽는 질문 기술
+| What Can't Be Said | Actual Psychology | What Engineers Might Misread |
+|-------------------|-------------------|------------------------------|
+| "Honestly, I don't think you're right for this role" | Fear of damaging the relationship or triggering backlash | "My manager can't see my potential" |
+| "At this pace, you won't get promoted next year either" | Guilt about extinguishing hope | "My manager doesn't care about my future" |
+| "I genuinely don't know how to help you" | Fear of exposing inadequacy | "My manager has given up on me" |
+| "Others on the team have said you're making things hard for them" | Avoiding direct confrontation | "My manager is talking about me behind my back" |
+| "I'm scared you're about to go to HR" | Unwillingness to show vulnerability | "My manager is dismissing me" |
+| "I actually directed most of this but wrote it as your work" | Avoiding direct conflict | "My manager recognizes my contribution" |
+| "I'm under pressure from above too" | Not wanting to appear weak | "My manager is only strict with me" |
+
+**Key insight**: Psychological constraints block communication most often and most powerfully — and managers themselves are often unaware of it.
+
+---
+
+## Perspective-Taking Guide
+
+### For Engineers Reading Their Manager
+
+When a manager is vague or won't answer directly, ask yourself first:
+
+1. **Is this a legal or HR constraint?** — Does the topic involve parental status, salary, or another employee?
+2. **Is this org confidentiality?** — Does it involve information that hasn't been announced yet?
+3. **Is this a political constraint?** — Is the manager avoiding something tied to their own superiors?
+4. **Is this psychological avoidance?** — Is there a pattern of the manager sidestepping conflict?
+
+### For Managers Recognizing Their Own Constraints
+
+Knowing why you can't say something makes it possible to find an alternative:
+
+| Constraint Type | Alternative Phrasing |
+|----------------|----------------------|
+| Legal constraint | "That's an area I can't speak to directly. It might be worth a conversation with HR." |
+| Org confidentiality | "I can't get specific right now, but things should be clearer by [time]." |
+| Political constraint | "I can't share all the context, but what I can do is [Y]." |
+| Psychological avoidance | — This one needs courage before it needs phrasing. See Radical Candor. |
+
+---
+
+## Connected Documents
+
+- `05_radical_candor.md` — how to say difficult things
+- `06_nonviolent_communication.md` — language for conveying truth within constraints
+- `07_difficult_conversations.md` — how conversations collapse when unsaid things accumulate
+- `11_questioning_techniques.md` — reading someone's constraints through questions

@@ -1,107 +1,109 @@
-# 14. 매니저가 엔지니어를 대하는 방법
+# 14. How Managers Manage Engineers
 
-> 엔지니어를 관리하는 것은 일반적인 관리와 다르다.
-> 엔지니어는 논리적이고, 자율성을 중시하며, 불명확함에 특히 민감하다.
-> 이 특성을 이해하고 활용하는 것이 핵심이다.
+> Managing engineers is different from general management.
+> Engineers think logically, value autonomy, and are especially sensitive to ambiguity.
+> Understanding and working with these traits is the core of the job.
 
----
-
-## 핵심 원칙
-
-### 1. 엔지니어의 언어로 말한다
-
-엔지니어는 시스템적으로 사고하고, 트레이드오프를 본다.
-- 모호한 피드백은 효과가 없다: "좀 더 적극적으로 해줘" → "X 미팅에서 의견을 먼저 말해줬으면 해"
-- 피드백은 **관찰 → 임팩트 → 기대** (SBI 모델, `08_feedback.md` 참고) 구조로
-- "왜냐하면"을 반드시 붙인다. 이유 없는 결정은 엔지니어를 답답하게 만든다
-
-### 2. 깊은 집중을 존중한다
-
-엔지니어의 컨텍스트 스위칭 비용은 크다.
-- 슬랙 메시지나 즉흥 미팅을 최소화한다
-- 질문은 모아서 한다. 단발성 방해보다 일괄 처리가 낫다
-- 집중 시간대(코어 아워)를 팀 차원에서 보호한다
-
-### 3. "왜"를 설명한다
-
-엔지니어는 임의적인 결정에 저항한다.
-- 결정의 배경과 제약을 공유한다
-- 결정이 바뀔 수 없다면 그것도 솔직히 말한다
-- "이건 결정됐어. 이유는 X야"가 "그냥 해줘"보다 훨씬 낫다
-
-### 4. 문제를 대신 풀어주지 않는다
-
-매니저가 답을 주면 엔지니어는 실행자가 된다. 스스로 찾으면 오너십을 갖는다.
-- 답 전에 질문: "어떻게 접근할 것 같아?"
-- 방향이 잘못됐을 때: "그 방향에서 X는 어떻게 처리할 거야?" (유도 질문)
-- 직접 수정하는 것은 최후의 수단
-
-### 5. 불확실성에 솔직하다
-
-엔지니어는 가짜 확신을 빠르게 감지한다.
-- "나도 아직 모르는 부분이 있어"가 "걱정하지 마"보다 신뢰를 더 만든다
-- 모르는 것은 모른다고 하고, 언제까지 알아볼지를 말한다
-- 불확실한 상황을 함께 생각하는 자세가 팀을 안심시킨다
-
-### 6. 시니어리티에 맞게 기대치를 조정한다
-
-같은 피드백이라도 레벨에 따라 다르게 적용된다.
-
-| 레벨 | 기대 초점 | 피드백 방향 |
-|------|----------|------------|
-| 주니어 | 작업 완수, 학습 속도 | 구체적 태스크 수준 |
-| 미드레벨 | 독립적 실행, 품질 | 접근 방식과 판단력 |
-| 시니어 | 시스템 사고, 팀 영향력, 선제적 행동 | 임팩트와 리더십 |
-
-같은 결과물이라도 시니어에겐 "어떻게 팀에 전파했어?"를 묻는다.
-
-### 7. What(무엇)과 How(어떻게)를 분리한다
-
-- **What**: 결과물, 기준, 데드라인 — 매니저가 명확히 정의
-- **How**: 기술적 접근 방식 — 가능하면 엔지니어에게 위임
-- 방법까지 통제하면 동기가 사라진다. 결과에 집중한다
-
-### 8. 커리어 경로를 가시화한다
-
-엔지니어가 다음 레벨의 기준을 모르면 불만과 이직으로 이어진다.
-- "시니어에게 기대하는 것"을 구체적으로 말한다
-- 현재 어디에 있고 어떤 갭이 있는지를 정기적으로 공유한다
-- 승진 기준이 명확하지 않으면 엔지니어는 불공평하다고 느낀다
-
-### 9. 저성과는 일찍, 직접 다룬다
-
-기다릴수록 선택지가 줄어든다. PIP는 마지막 수단이어야 한다.
-- 문제가 보이면 빠르게 1:1에서 직접 이야기한다
-- "이것이 우려돼, 같이 해결해보자"가 "이미 PIP야"보다 훨씬 낫다
-- 일찍 말하는 것이 냉정한 것이 아니라 오히려 더 배려 있는 것이다
-
-### 10. 사람과 성과를 분리한다
-
-행동에 대한 피드백과 인격에 대한 판단을 섞으면 방어가 올라온다.
-- "너는 느려" → "이번 스프린트에서 두 번 일정이 지연됐어"
-- "너는 커뮤니케이션이 안 돼" → "미팅에서 결정 내용이 공유되지 않아서 다른 팀이 혼란스러워했어"
-- 관찰 언어는 반박하기 어렵고, 성장 피드백이 된다
+> [🇰🇷 한국어](../foundations.ko/14_매니저의_엔지니어_관리.md)
 
 ---
 
-## 흔한 실수
+## Core Principles
 
-| 실수 | 왜 문제인가 | 대안 |
-|------|-----------|------|
-| 이유 없이 결정을 전달 | 엔지니어가 납득하지 못하고 저항 | 결정 배경과 제약을 함께 전달 |
-| 문제를 대신 해결 | 오너십이 사라지고 실행자로 전락 | 질문으로 스스로 생각하게 함 |
-| 가짜 확신 | 신뢰 손상 | "모른다"를 솔직히 말함 |
-| 너무 늦은 피드백 | 수정 기회를 놓침, PIP만 남음 | 초기 1:1에서 직접 이야기 |
-| 모든 레벨에 같은 기대 | 시니어가 주니어 수준으로 관리됨 | 레벨별 기대치 명확히 구분 |
-| 방법까지 통제 | 동기 저하, 마이크로매니지먼트 | What을 정하고 How는 위임 |
+### 1. Speak the Engineer's Language
+
+Engineers think in systems and see trade-offs.
+- Vague feedback doesn't land: "be more proactive" → "I'd like you to speak first in meeting X"
+- Structure feedback as **Observation → Impact → Expectation** (SBI model, see `08_feedback.md`)
+- Always attach "because." Decisions without reasons frustrate engineers.
+
+### 2. Respect Deep Focus
+
+Context-switching costs are high for engineers.
+- Minimize Slack messages and ad-hoc meetings.
+- Batch your questions. One interruption for five things beats five separate ones.
+- Protect focused time (core hours) at the team level.
+
+### 3. Explain the Why
+
+Engineers resist arbitrary decisions.
+- Share the background and constraints behind decisions.
+- If a decision can't be changed, be honest about that too.
+- "This is decided. The reason is X" beats "just do it" by a wide margin.
+
+### 4. Don't Solve Their Problems for Them
+
+When a manager provides the answer, the engineer becomes an executor. When they find it themselves, they own it.
+- Ask before answering: "How would you approach this?"
+- When the direction is wrong: "In that approach, how would you handle X?" (guiding question)
+- Stepping in and doing it yourself is the last resort.
+
+### 5. Be Honest About Uncertainty
+
+Engineers detect false confidence quickly.
+- "There are things I still don't know" builds more trust than "don't worry about it."
+- If you don't know something, say so and name when you'll find out.
+- Thinking through uncertainty together reassures the team.
+
+### 6. Calibrate Expectations to Seniority
+
+The same feedback applies differently at different levels.
+
+| Level | Expectation Focus | Feedback Direction |
+|-------|------------------|--------------------|
+| Junior | Task completion, learning pace | Specific task level |
+| Mid-level | Independent execution, quality | Approach and judgment |
+| Senior | Systems thinking, team influence, proactive behavior | Impact and leadership |
+
+For the same output, ask a senior: "How did you spread this knowledge to the team?"
+
+### 7. Separate What from How
+
+- **What**: the output, the standard, the deadline — defined clearly by the manager
+- **How**: the technical approach — delegate to the engineer whenever possible
+- Controlling the method as well kills motivation. Focus on results.
+
+### 8. Make Career Paths Visible
+
+When engineers don't know what the next level looks like, frustration and attrition follow.
+- Be specific about "what I expect from a senior."
+- Regularly share where they currently are and what the gaps are.
+- When promotion criteria aren't clear, engineers feel the system is unfair.
+
+### 9. Address Underperformance Early and Directly
+
+The longer you wait, the fewer options remain. PIP should be a last resort.
+- When you see a problem, talk about it directly in a 1:1 quickly.
+- "I'm concerned about this — let's work on it together" beats "you're already on PIP" by a mile.
+- Speaking up early is not cold — it is the more caring act.
+
+### 10. Separate Person from Performance
+
+Mixing feedback on behavior with judgment of character raises defenses.
+- "You're slow" → "The schedule slipped twice during this sprint."
+- "You're bad at communication" → "The decisions from the meeting weren't shared and another team got confused."
+- Observation language is harder to argue with and becomes growth feedback.
 
 ---
 
-## 연결 문서
+## Common Mistakes
 
-- `01_human_is_not_a_system.md` — 엔지니어 마인드셋으로 사람을 보는 함정
-- `05_radical_candor.md` — 직접적이면서도 진심 어린 피드백
-- `08_feedback.md` — SBI 모델, 피드백 타이밍
-- `09_situational_leadership.md` — 레벨별로 다른 관리 스타일
-- `10_engineering_manager_traps.md` — 매니저가 빠지는 함정들
-- `12_what_managers_cant_say.md` — 말하지 못하는 것들과 대안 표현
+| Mistake | Why It's a Problem | Alternative |
+|---------|---------------------|-------------|
+| Delivering decisions without reasons | Engineers don't accept them and resist | Share the background and constraints |
+| Solving their problems for them | Ownership disappears, they become executors | Use questions to make them think |
+| Projecting false confidence | Damages trust | Honestly say "I don't know" |
+| Giving feedback too late | Miss the chance to correct; PIP is all that's left | Address it directly in an early 1:1 |
+| Same expectations for all levels | Senior gets managed like a junior | Distinguish expectations by level |
+| Controlling the method too | Demotivation, micromanagement | Set the What; delegate the How |
+
+---
+
+## Connected Documents
+
+- `01_human_is_not_a_system.md` — the trap of viewing people through an engineer's mindset
+- `05_radical_candor.md` — feedback that is direct and genuinely caring
+- `08_feedback.md` — SBI model, feedback timing
+- `09_situational_leadership.md` — different management styles for different levels
+- `10_engineering_manager_traps.md` — traps managers fall into
+- `12_what_managers_cant_say.md` — things that can't be said and alternative expressions

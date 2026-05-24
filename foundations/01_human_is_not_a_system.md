@@ -1,38 +1,40 @@
-# 1. 사람은 시스템이 아니다
+# 1. People Are Not Systems
 
-> 엔지니어링 매니저가 가장 먼저 직면하는 근본적 전환점.
+> The fundamental shift every engineering manager faces first.
+
+> [🇰🇷 한국어](../foundations.ko/01_사람은_시스템이_아니다.md)
 
 ---
 
-## 핵심 명제
+## Core Premise
 
-시스템은 입력이 같으면 출력이 같다. 사람은 그렇지 않다.
+Systems produce the same output given the same input. People do not.
 
-같은 말을 해도 어제와 오늘 반응이 다르고, 같은 피드백이 A에게는 동기부여가 되고 B에게는 상처가 된다. 이것은 버그가 아니라 사람의 본질이다.
+The same words land differently today than yesterday. The same feedback motivates person A and wounds person B. This is not a bug — it is the nature of people.
 
-## 엔지니어 마인드셋의 함정
+## The Engineer Mindset Trap
 
-| 시스템 사고 | 사람에게 적용했을 때의 문제 |
-|------------|--------------------------|
-| 문제를 찾아 고친다 | 사람을 "고쳐야 할 대상"으로 봄 |
-| 원인을 추적한다 | 행동 뒤의 감정/맥락을 무시함 |
-| 효율을 최적화한다 | 관계와 신뢰를 비용으로 봄 |
-| 명확한 스펙을 요구한다 | 모호한 감정/욕구를 처리 못함 |
-| 예측 가능성을 원한다 | 불확실성에 불안해함 |
+| Systems Thinking | The Problem When Applied to People |
+|-----------------|-------------------------------------|
+| Find and fix the problem | Treats people as objects to be "fixed" |
+| Trace the root cause | Ignores the emotions and context behind behavior |
+| Optimize for efficiency | Sees relationships and trust as costs |
+| Requires clear specs | Cannot handle ambiguous emotions and needs |
+| Wants predictability | Becomes anxious with uncertainty |
 
-## 빙산 모델 (Iceberg Model)
+## The Iceberg Model
 
 ```
-[보이는 것] ── 행동, 말, 성과
-─────────────────────────────────
-[보이지 않는 것] ── 감정, 욕구, 두려움, 가정, 과거 경험
+[Visible]   ── behavior, words, performance
+──────────────────────────────────────────
+[Invisible] ── emotions, needs, fears, assumptions, past experiences
 ```
 
-사람의 행동은 항상 빙산의 일각이다.
-"왜 저런 행동을 하나?"가 아니라 "수면 아래에 무엇이 있나?"를 먼저 물어야 한다.
+Human behavior is always the tip of the iceberg.
+The first question is not "why are they acting this way?" but "what lies beneath the surface?"
 
-## 실천 원칙
+## Guiding Principles
 
-- 행동을 판단하기 전에 맥락을 먼저 이해하려 한다.
-- "이 사람이 왜 이렇게 행동하는지 나는 얼마나 알고 있나?"를 스스로 묻는다.
-- 예측과 통제보다 이해와 적응에 에너지를 쓴다.
+- Seek to understand context before judging behavior.
+- Ask yourself: "How much do I actually know about why this person acts this way?"
+- Invest energy in understanding and adapting, not in predicting and controlling.

@@ -1,45 +1,47 @@
-# 9. 상황적 리더십 (Situational Leadership)
+# 9. Situational Leadership
 
 > — Hersey & Blanchard
 
----
-
-## 핵심 원칙
-
-**리더십 스타일은 고정되어 있으면 안 된다.**
-같은 사람에게도 상황과 과제에 따라 다른 스타일이 필요하다.
+> [🇰🇷 한국어](../foundations.ko/09_상황적_리더십.md)
 
 ---
 
-## 두 축
+## Core Principle
 
-- **역량 (Competence)**: 이 과제를 수행할 기술/지식이 있는가?
-- **의지 (Commitment)**: 이 과제에 동기부여/자신감이 있는가?
-
----
-
-## 4가지 발달 단계와 리더십 스타일
-
-| 단계 | 특성 | 리더십 스타일 | 접근 |
-|------|------|-------------|------|
-| D1 | 역량 낮음 + 의지 높음 (초보자, 열정적) | **Directing (지시)** | 명확한 방향, 세부 지침 제공 |
-| D2 | 역량 낮음 + 의지 낮음 (좌절한 학습자) | **Coaching (코칭)** | 방향 제시 + 감정적 지지 동시에 |
-| D3 | 역량 높음 + 의지 낮음 (유능하지만 자신감 부족) | **Supporting (지원)** | 결정에 참여시키고 격려 |
-| D4 | 역량 높음 + 의지 높음 | **Delegating (위임)** | 책임과 권한 완전 위임 |
+**Leadership style must not be fixed.**
+Even with the same person, different situations and tasks call for different styles.
 
 ---
 
-## 흔한 실수
+## The Two Axes
 
-- D4 직원에게 Directing → 통제받는다고 느끼고 의욕 저하
-- D1 직원에게 Delegating → 방치받는다고 느끼고 불안해함
-- 모든 사람에게 같은 스타일 적용 → 누군가는 항상 잘못된 방식으로 관리됨
+- **Competence**: Does this person have the skill and knowledge to perform this task?
+- **Commitment**: Does this person have the motivation and confidence for this task?
 
 ---
 
-## 엔지니어링 매니저에게 특히 중요한 이유
+## The Four Development Stages and Leadership Styles
 
-기술 조직에서는 고역량(D4) 비율이 높다.
-D4에게 지나친 Directing은 가장 좋은 사람을 잃는 지름길이다.
-반면 새로운 영역(신기술, 새 역할)에서는 D4도 D1이 된다.
-**사람이 아니라 과제와 상황을 보고 스타일을 결정한다.**
+| Stage | Profile | Leadership Style | Approach |
+|-------|---------|-----------------|----------|
+| D1 | Low competence + High commitment (enthusiastic beginner) | **Directing** | Clear direction, detailed guidance |
+| D2 | Low competence + Low commitment (disillusioned learner) | **Coaching** | Direction plus emotional support simultaneously |
+| D3 | High competence + Low commitment (capable but lacking confidence) | **Supporting** | Involve in decisions and encourage |
+| D4 | High competence + High commitment | **Delegating** | Full delegation of responsibility and authority |
+
+---
+
+## Common Mistakes
+
+- Directing a D4 person → they feel controlled, motivation drops
+- Delegating to a D1 person → they feel abandoned, become anxious
+- Applying the same style to everyone → someone is always being managed the wrong way
+
+---
+
+## Why This Matters Especially for Engineering Managers
+
+Technical organizations tend to have a high proportion of D4 individuals.
+Over-directing your D4 engineers is the fastest way to lose your best people.
+On the other hand, even a D4 person becomes a D1 when entering a new domain (new technology, new role).
+**Read the task and situation, not the person, when choosing your style.**

@@ -79,21 +79,16 @@ ManagerMirror/
 ├── README.ko.md
 ├── skill/
 │   └── SKILL.md            # Claude Code skill definition
-├── foundations/            # shared knowledge base (14 files)
+├── foundations/            # English knowledge base — primary (AI reads this)
 │   ├── 01_human_is_not_a_system.md
 │   ├── 02_basic_human_needs.md
-│   ├── 03_psychological_safety.md
-│   ├── 04_trust.md
-│   ├── 05_radical_candor.md
-│   ├── 06_nonviolent_communication.md
-│   ├── 07_difficult_conversations.md
-│   ├── 08_feedback.md
-│   ├── 09_situational_leadership.md
-│   ├── 10_engineering_manager_traps.md
-│   ├── 11_questioning_techniques.md
-│   ├── 12_what_managers_cant_say.md
-│   ├── 13_engineer_managing_up.md
+│   ├── ...
 │   └── 14_manager_managing_engineers.md
+├── foundations.ko/         # Korean knowledge base — user reference only (Korean filenames)
+│   ├── 01_사람은_시스템이_아니다.md
+│   ├── 02_기본_심리_욕구.md
+│   ├── ...
+│   └── 14_매니저의_엔지니어_관리.md
 ├── template/               # file format references
 │   ├── situation.md
 │   ├── challenge.md

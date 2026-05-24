@@ -1,160 +1,161 @@
-# 11. 상황과 감정을 끌어내는 질문 기술
+# 11. Questioning Techniques
 
-> 이 문서는 Claude가 사용자의 상황을 더 깊이 이해하기 위해 사용하는 질문 프레임이다.
-> 좋은 질문은 답을 주는 것이 아니라 사용자 스스로 보지 못하던 것을 보게 만든다.
+> Good questions don't give answers — they help people see what they couldn't see on their own.
 
----
-
-## 원칙: 질문의 목적
-
-1. **사실과 해석을 분리**시킨다 — 사용자는 종종 해석을 사실로 말한다.
-2. **감정을 수면 위로** 끌어올린다 — 말하지 않은 감정이 문제의 핵심인 경우가 많다.
-3. **가정을 흔든다** — 당연하다고 여기는 것이 틀렸을 수 있다.
-4. **가능성을 연다** — 막혀있다고 느끼는 사람에게 선택지가 있음을 보여준다.
-5. **판단하지 않는다** — 질문 자체에 정답이 내포되면 사용자는 방어적이 된다.
+> [🇰🇷 한국어](../foundations.ko/11_질문_기술.md)
 
 ---
 
-## 기술 1: 깔때기 질문 (Funnel Technique)
+## Principles: The Purpose of Questions
 
-넓은 질문 → 좁은 질문으로 내려간다.
-처음부터 세부를 물으면 맥락이 없고, 처음부터 추상적이면 뜬구름이다.
+1. **Separate fact from interpretation** — people often state interpretations as facts.
+2. **Surface emotions** — the unspoken feeling is often the core of the problem.
+3. **Shake assumptions** — what seems obvious may be wrong.
+4. **Open possibilities** — show people who feel stuck that choices exist.
+5. **Don't judge** — when a question implies a right answer, people become defensive.
+
+---
+
+## Technique 1: The Funnel
+
+Move from broad to narrow.
+Starting too specific loses context; starting too abstract floats away.
 
 ```
-[넓게] "그 상황에서 전반적으로 어떤 일이 있었어?"
+[Broad]  "What's been going on with that situation overall?"
     ↓
-[좁게] "그 중에서 가장 불편했던 순간은 언제야?"
+[Narrow] "Of all of that, what moment felt most uncomfortable?"
     ↓
-[핵심] "그 순간 네가 느낀 감정을 한 단어로 말한다면?"
+[Core]   "If you had to name that feeling in one word, what would it be?"
 ```
 
-**언제 쓰나**: 사용자가 상황을 처음 설명할 때.
+**When to use**: when someone is first describing a situation.
 
 ---
 
-## 기술 2: 사실-해석 분리 질문
+## Technique 2: Fact–Interpretation Separation
 
-사용자가 해석을 사실처럼 말할 때 쓴다.
+Use when someone states an interpretation as fact.
 
-- 사용자: "그 직원은 나를 무시해."
-- 질문: "그 사람이 너를 무시한다고 느끼게 만든 구체적인 행동이 뭐야?"
-- 질문: "그 상황에서 실제로 일어난 일을 팩트만으로 말해줄 수 있어?"
+- Person: "That employee completely ignores me."
+- Question: "What specific behavior makes you feel ignored?"
+- Question: "Can you describe what actually happened, just the facts?"
 
-**패턴**:
-- "항상", "절대", "다" 같은 일반화 단어가 나오면 → "항상이라고 했는데, 가장 최근에 그랬던 구체적인 사례를 말해줄 수 있어?"
-- "그는 ~하다" (성격 판단) → "그가 ~하게 행동한 구체적인 상황은 어떤 거야?"
-
----
-
-## 기술 3: 감정 명명 질문 (Emotion Labeling)
-
-감정을 말하지 않거나, 추상적으로 말할 때 쓴다. 감정이 명확해져야 다음으로 넘어갈 수 있다.
-
-- "그때 어떤 감정이 들었어?"
-- "화가 났다고 했는데, 화 안에 다른 감정도 있었어? 예를 들어 실망이나 두려움 같은 것?"
-- "몸으로 느낀다면 어느 부위에서 느껴졌어?" (신체화 질문 — 감정을 회피하는 사람에게 효과적)
-- "그 감정에 이름을 붙인다면?"
-
-**감정 스펙트럼 예시** (사용자가 막힐 때 제시):
-분노 / 실망 / 두려움 / 무력감 / 억울함 / 수치심 / 외로움 / 혼란 / 질투 / 죄책감
+**Patterns**:
+- "Always," "never," "everyone" → "You said always — what's the most recent specific example?"
+- "He's [personality label]" → "What specific situation did he act that way in?"
 
 ---
 
-## 기술 4: 가정 뒤집기 질문 (Assumption Flipping)
+## Technique 3: Emotion Labeling
 
-사용자가 고착된 관점에 있을 때 사용한다.
+Use when someone isn't naming their feelings, or names them vaguely.
 
-- "만약 그 사람이 나쁜 의도가 없었다면, 그 행동을 어떻게 설명할 수 있을까?"
-- "네가 틀렸을 가능성이 10%라도 있다면, 어떤 부분일까?"
-- "그 직원의 입장에서 이 상황을 설명한다면 어떻게 말할 것 같아?"
-- "6개월 후에 지금을 돌아본다면, 뭐가 가장 다르게 보일까?"
+- "What feeling came up for you in that moment?"
+- "You said you were angry — was there anything else inside the anger? Disappointment, maybe, or fear?"
+- "If you felt it in your body, where would it be?" (useful for people who avoid emotions)
+- "If you were to name that feeling, what would you call it?"
 
----
-
-## 기술 5: 스케일링 질문 (Scaling Questions)
-
-추상적인 감정/상태를 수치로 구체화한다.
-
-- "지금 이 상황에 대한 스트레스를 1-10으로 말하면?"
-- "그 직원을 신뢰하는 정도가 1이 전혀 없고 10이 완전하다면 지금 몇이야?"
-- "이상적인 상태를 10이라고 할 때, 지금은 몇이야? 그리고 4에서 5로 가려면 뭐가 바뀌어야 해?"
-
-**효과**: 막연한 감정을 다룰 수 있는 크기로 만들고, 변화의 방향을 탐색하게 한다.
+**Emotion spectrum to offer when someone is stuck**:
+Anger / Disappointment / Fear / Helplessness / Resentment / Shame / Loneliness / Confusion / Jealousy / Guilt
 
 ---
 
-## 기술 6: 예외 질문 (Exception Questions)
+## Technique 4: Assumption Flipping
 
-"항상 문제"라고 느낄 때, 그렇지 않은 순간을 찾는다. — Solution-Focused Therapy
+Use when someone is locked into a fixed perspective.
 
-- "이 문제가 없었던 때, 또는 덜했던 때가 있었어? 그때는 뭐가 달랐어?"
-- "그 직원과 잘 됐던 순간이 있었어? 그때는 어떤 상황이었어?"
-- "지금 이 상황에서 그나마 잘 되고 있는 것은 뭐야?"
-
-**효과**: 문제에서 해결로 관점을 이동시킨다.
-
----
-
-## 기술 7: 영향 탐색 질문 (Impact Questions)
-
-행동이나 상황이 미치는 영향을 구체화한다.
-
-- "그 결정이 팀에 어떤 영향을 미쳤어?"
-- "네가 아무것도 하지 않으면 3개월 후에는 어떻게 될 것 같아?"
-- "이 상황이 너의 다른 영역(집, 건강, 다른 관계)에도 영향을 주고 있어?"
+- "If this person had no bad intent, how might you explain that behavior?"
+- "If there's even a 10% chance you're wrong, what part might that be?"
+- "How would that employee describe this situation from their side?"
+- "If you looked back at this moment six months from now, what would look different?"
 
 ---
 
-## 기술 8: 순환 질문 (Circular Questions)
+## Technique 5: Scaling Questions
 
-한 사람의 행동이 다른 사람에게 미치는 영향을 탐색한다. — 시스템 사고
+Make abstract feelings or states concrete with numbers.
 
-- "네가 그렇게 반응했을 때, 그 직원은 어떻게 반응했어?"
-- "팀 다른 멤버들은 이 상황을 어떻게 보고 있을 것 같아?"
-- "네 매니저가 이 상황을 안다면 뭐라고 할 것 같아?"
+- "On a scale of 1–10, what's your stress level about this situation?"
+- "How much do you trust that employee, where 1 is not at all and 10 is completely?"
+- "If the ideal state is a 10, where are you now? What would need to change to go from a 4 to a 5?"
 
-**효과**: 자기 중심적 관점에서 벗어나 시스템 전체를 보게 만든다.
-
----
-
-## 기술 9: 미래 투영 질문 (Future Projection)
-
-현재에 갇혔을 때 미래 시점에서 현재를 보게 한다.
-
-- "이 문제가 완전히 해결된 상태를 상상한다면, 어떤 모습이야?"
-- "5년 후의 네가 지금 이 상황을 보면 뭐라고 할 것 같아?"
-- "지금 당장 한 가지만 바뀐다면, 무엇이 바뀌면 제일 좋겠어?"
+**Effect**: turns vague feelings into workable sizes and opens a path toward change.
 
 ---
 
-## 기술 10: 침묵과 여백
+## Technique 6: Exception Questions
 
-질문 후 바로 다음 질문을 하지 않는다.
+When something feels like "always a problem," find the moments it wasn't. — Solution-Focused Therapy
 
-- 사람은 생각할 시간이 필요하다.
-- 불편한 침묵을 채우려는 충동을 참는다.
-- "조금 더 생각해봐도 돼"라고 명시적으로 허락한다.
+- "Has there been a time when this problem didn't exist, or was less bad? What was different then?"
+- "Was there ever a moment that went well with that employee? What was the situation?"
+- "What's working okay right now, even in this situation?"
 
----
-
-## Claude의 질문 운용 원칙
-
-1. **한 번에 하나의 질문만** — 여러 질문을 동시에 하면 사용자는 쉬운 것만 답한다.
-2. **왜(Why)보다 어떻게(How)/무엇(What)** — "왜"는 방어를 유발한다. "어떻게 그렇게 됐어?"가 "왜 그랬어?"보다 덜 공격적이다.
-3. **요약 후 질문** — "지금까지 들은 것을 정리하면 ~인데, 맞아? 그렇다면 ~에 대해 더 말해줄 수 있어?"
-4. **감정 먼저, 분석 나중** — 감정이 인정받지 않은 상태에서 분석 질문을 하면 닫힌다.
-5. **판단 없는 호기심** — 질문에 정답이 내포되어 있으면 사용자는 그 방향으로 끌려간다.
+**Effect**: shifts perspective from problem to solution.
 
 ---
 
-## 상황별 빠른 참조
+## Technique 7: Impact Questions
 
-| 상황 | 추천 기술 |
-|------|----------|
-| 사용자가 두루뭉술하게 말함 | 깔때기 질문, 사실-해석 분리 |
-| 감정을 말하지 않음 | 감정 명명, 신체화 질문 |
-| "항상", "절대" 같은 말을 씀 | 사실-해석 분리, 예외 질문 |
-| 막혀있다고 느낌 | 예외 질문, 미래 투영, 스케일링 |
-| 한 사람만 나쁘다고 함 | 순환 질문, 가정 뒤집기 |
-| 강도가 불분명함 | 스케일링 질문 |
-| 상황의 파급효과가 불분명 | 영향 탐색 질문 |
+Make the ripple effects of behavior or situations concrete.
+
+- "What impact did that decision have on the team?"
+- "If you do nothing, what do you think happens in three months?"
+- "Is this situation affecting other areas of your life — home, health, other relationships?"
+
+---
+
+## Technique 8: Circular Questions
+
+Explore how one person's behavior affects others. — Systems thinking
+
+- "When you reacted that way, how did the employee respond?"
+- "How do you think the other team members see this situation?"
+- "If your manager knew about this, what do you think they'd say?"
+
+**Effect**: moves perspective from self-centered to the full system.
+
+---
+
+## Technique 9: Future Projection
+
+When someone is stuck in the present, have them view it from a future point.
+
+- "Imagine this problem is completely solved. What does that look like?"
+- "What would your future self, five years from now, say about this moment?"
+- "If just one thing could change right now, what would help most?"
+
+---
+
+## Technique 10: Silence and Space
+
+Don't immediately ask another question after the first.
+
+- People need time to think.
+- Resist the urge to fill uncomfortable silence.
+- Explicitly give permission: "Take as long as you need."
+
+---
+
+## Operating Principles
+
+1. **One question at a time** — multiple questions let people answer only the easy one.
+2. **How and What over Why** — "why" triggers defensiveness. "How did that happen?" is softer than "why did you do that?"
+3. **Summarize, then ask** — "Based on what I've heard, it sounds like X — is that right? If so, can you tell me more about Y?"
+4. **Emotions first, analysis second** — analysis questions close people down when their emotions haven't been acknowledged.
+5. **Curious, not judgmental** — when a question carries an implied correct answer, people follow it rather than explore.
+
+---
+
+## Quick Reference by Situation
+
+| Situation | Recommended Technique |
+|-----------|-----------------------|
+| Person is vague or general | Funnel, Fact–Interpretation Separation |
+| Person doesn't name feelings | Emotion Labeling, body-based question |
+| Person uses "always" or "never" | Fact–Interpretation Separation, Exception Questions |
+| Person feels stuck | Exception Questions, Future Projection, Scaling |
+| Person blames only one person | Circular Questions, Assumption Flipping |
+| Intensity is unclear | Scaling Questions |
+| Ripple effects are unclear | Impact Questions |

@@ -1,44 +1,46 @@
-# 8. 피드백 원칙
+# 8. Feedback Principles
+
+> [🇰🇷 한국어](../foundations.ko/08_피드백_원칙.md)
 
 ---
 
-## SBI 모델 (Situation - Behavior - Impact)
+## The SBI Model (Situation – Behavior – Impact)
 
-| 단계 | 의미 | 예시 |
-|------|------|------|
-| Situation | 언제, 어디서 | "어제 팀 전체 미팅에서" |
-| Behavior | 구체적으로 무엇을 했는가 (관찰 가능한 행동) | "팀원 A가 말하는 도중에 말을 끊었을 때" |
-| Impact | 그것이 어떤 영향을 미쳤는가 | "A가 그 이후 말을 잘 하지 않았어. 나는 A가 위축된 것 같다고 느꼈어." |
+| Step | Meaning | Example |
+|------|---------|---------|
+| Situation | When and where | "In yesterday's all-hands meeting…" |
+| Behavior | What specifically happened (observable action) | "…when you interrupted team member A mid-sentence…" |
+| Impact | What effect did it have | "…A barely spoke after that. I felt like A had shut down." |
 
-**핵심: 행동에 대해 말하지, 인격에 대해 말하지 않는다.**
+**Core: address the behavior, not the person's character.**
 
-- ❌ "넌 왜 항상 사람을 배려하지 않아?" (인격 공격)
-- ✅ SBI 모델 적용
-
----
-
-## 긍정 피드백도 구체적으로
-
-모호한 칭찬은 동기부여가 안 된다.
-
-- ❌ "잘했어."
-- ✅ "그 고객 미팅에서 네가 기술적 내용을 비기술 언어로 설명한 방식이 정말 효과적이었어. 고객이 처음으로 이해했다는 반응을 보였거든."
+- ❌ "Why do you never consider other people's feelings?" (character attack)
+- ✅ Apply the SBI model
 
 ---
 
-## 피드백을 주는 타이밍
+## Make Positive Feedback Specific Too
 
-- **즉각적으로**: 사건 후 24-48시간 안에. 늦어질수록 맥락이 사라진다.
-- **개인적으로**: 공개 비판은 수치심을 유발하고 방어를 강화한다.
-- **준비된 상태로**: 감정이 올라온 상태에서 바로 주는 피드백은 공격이 될 수 있다.
+Vague praise does not motivate.
+
+- ❌ "Good job."
+- ✅ "The way you translated technical content into plain language in that client meeting was really effective. It was the first time the client clearly showed they understood."
 
 ---
 
-## 피드백을 받는 원칙
+## Timing for Giving Feedback
 
-피드백을 잘 받는 것도 능력이다.
+- **Promptly**: within 24–48 hours of the event. Context fades with time.
+- **Privately**: public criticism triggers shame and shuts down receptivity.
+- **Prepared**: feedback delivered in the heat of emotion can come across as an attack.
 
-- 즉각 방어하지 않는다. 먼저 이해하려 한다.
-- "고마워. 조금 더 말해줄 수 있어?"
-- 동의하지 않아도 일단 들은 후 시간을 두고 판단한다.
-- 피드백 주는 사람을 위협하지 않는다 (그러면 다음번에 말 안 함).
+---
+
+## Principles for Receiving Feedback
+
+Receiving feedback well is a skill.
+
+- Don't defend immediately. Seek to understand first.
+- "Thank you. Can you tell me more?"
+- Even if you disagree, listen fully and give yourself time before judging.
+- Don't threaten or retaliate against the person giving feedback — they won't speak again.

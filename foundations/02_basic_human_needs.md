@@ -1,41 +1,43 @@
-# 2. 기본 심리 욕구 (Self-Determination Theory)
+# 2. Basic Psychological Needs (Self-Determination Theory)
 
-> 사람이 내재적으로 동기부여 되는 세 가지 조건. — Deci & Ryan
+> The three conditions for intrinsic motivation. — Deci & Ryan
 
----
-
-## 세 가지 핵심 욕구
-
-### 1. 자율성 (Autonomy)
-"내가 선택하고 있다"는 느낌.
-지시받는 것과 선택하는 것은 결과가 같아도 경험이 다르다.
-
-- 세부 사항을 통제하기보다 방향과 제약을 주고 방법은 맡긴다.
-- "이렇게 해" → "이 목표를 달성해야 해. 어떻게 할 것 같아?"
-
-### 2. 유능감 (Competence)
-"내가 잘 하고 있다"는 느낌.
-피드백 없이 방치하거나, 너무 쉬운 일만 주거나, 항상 비판만 하면 이 욕구가 무너진다.
-
-- 적절한 난이도의 도전을 준다.
-- 성장을 인식할 수 있도록 피드백을 준다.
-
-### 3. 연결감 (Relatedness)
-"나는 여기 속해 있다"는 느낌.
-팀에서 고립되거나, 매니저와 신뢰가 없거나, 기여가 보이지 않으면 이 욕구가 무너진다.
-
-- 개인의 기여를 가시화한다.
-- 1:1에서 업무 외 인간적 연결에도 시간을 쓴다.
+> [🇰🇷 한국어](../foundations.ko/02_기본_심리_욕구.md)
 
 ---
 
-## 매니저에게 주는 함의
+## The Three Core Needs
 
-세 욕구 중 하나라도 지속적으로 충족되지 않으면 사람은 조용히 이탈한다 (quiet quitting).
-퇴직보다 먼저 오는 신호다.
+### 1. Autonomy
+The feeling of "I am choosing this."
+Being directed versus choosing feels different even when the outcome is identical.
 
-| 욕구 | 충족 안 될 때 신호 | 매니저가 할 수 있는 것 |
-|------|-----------------|---------------------|
-| 자율성 | 무기력, 의욕 저하 | 의사결정 위임 |
-| 유능감 | 자신감 저하, 회피 | 성장 피드백, 적절한 도전 |
-| 연결감 | 고립, 냉소 | 인정, 관계 구축 |
+- Give direction and constraints; delegate the method.
+- "Do it this way" → "Here's the goal. How would you approach it?"
+
+### 2. Competence
+The feeling of "I am doing this well."
+Leaving someone without feedback, giving only trivial tasks, or offering constant criticism destroys this need.
+
+- Offer challenges at the right level of difficulty.
+- Provide feedback so people can recognize their own growth.
+
+### 3. Relatedness
+The feeling of "I belong here."
+Isolation from the team, absence of trust with the manager, or invisible contributions all erode this need.
+
+- Make individual contributions visible.
+- Use some 1:1 time for human connection beyond work.
+
+---
+
+## Implications for Managers
+
+When any one of these three needs goes unmet over time, people disengage quietly (quiet quitting).
+It is the signal that comes before resignation.
+
+| Need | Signs When Unmet | What a Manager Can Do |
+|------|-----------------|----------------------|
+| Autonomy | Apathy, loss of motivation | Delegate decisions |
+| Competence | Declining confidence, avoidance | Growth feedback, right-sized challenges |
+| Relatedness | Isolation, cynicism | Recognition, relationship-building |
