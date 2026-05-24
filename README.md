@@ -19,9 +19,9 @@ Both sides often lack a structured space to process what happened and build genu
 ManagerMirror provides:
 - A **knowledge base** of foundational frameworks (psychology, feedback, trust, leadership)
 - A **structured format** for recording and reflecting on real situations
-- A **coaching approach** that uses the GROW model and surfaces questions rather than prescribing answers
-- **Perspective-taking** — when you can't understand the other side, the skill helps you generate plausible hypotheses and explore them
-- **AI tool integration** — works with Claude Code (`/managermirror`), GitHub Copilot, ChatGPT, Hermes (Ollama), or any AI that can read files
+- A **coaching approach** based on the GROW model — surfaces questions rather than prescribing answers
+- **Perspective-taking** — when you can't understand the other side, the skill generates plausible hypotheses and explores them with you
+- **Multi-AI support** — works with Claude Code, GitHub Copilot, ChatGPT, Hermes (Ollama), or any AI that can read files
 
 ---
 
@@ -46,7 +46,7 @@ Principles — accumulated over time
 ```
 
 Each session produces three files:
-- `situation.md` — what happened, in facts
+- `situation.md` — what happened, in facts only
 - `challenge.md` — the uncomfortable questions raised
 - `insight.md` — what was realized, what changes next time
 
@@ -74,8 +74,12 @@ Your personal folder (`users/{your_username}/`) is created automatically as sess
 ```
 ManagerMirror/
 ├── .gitignore              # excludes users/
+├── AGENTS.md               # instructions for all AI tools
 ├── README.md
-├── foundations/            # shared knowledge base (11 files)
+├── README.ko.md
+├── skill/
+│   └── SKILL.md            # Claude Code skill definition
+├── foundations/            # shared knowledge base (12 files)
 │   ├── 01_human_is_not_a_system.md
 │   ├── 02_basic_human_needs.md
 │   ├── 03_psychological_safety.md
@@ -86,7 +90,8 @@ ManagerMirror/
 │   ├── 08_feedback.md
 │   ├── 09_situational_leadership.md
 │   ├── 10_engineering_manager_traps.md
-│   └── 11_questioning_techniques.md
+│   ├── 11_questioning_techniques.md
+│   └── 12_what_managers_cant_say.md
 ├── template/               # file format references
 │   ├── situation.md
 │   ├── challenge.md
@@ -94,13 +99,16 @@ ManagerMirror/
 │   └── principles.md
 └── users/                  # gitignored — your data only
     └── {your_username}/
+        ├── profile/
+        ├── situations/
+        └── principles/
 ```
 
 ---
 
 ## Foundations Knowledge Base
 
-The `foundations/` folder contains 11 reference documents that power the coaching sessions. Each covers a core framework relevant to people management:
+The `foundations/` folder contains 12 reference documents that power the coaching sessions:
 
 | File | Topic |
 |------|-------|
@@ -115,6 +123,7 @@ The `foundations/` folder contains 11 reference documents that power the coachin
 | `09` | Situational leadership — matching your style to the person's stage |
 | `10` | Engineering manager traps — fix-it mode, clarity obsession, and more |
 | `11` | Questioning techniques — how to draw out what people can't say yet |
+| `12` | What managers can't say — legal, HR, organizational, and psychological constraints that explain silence and indirect communication |
 
 ---
 
@@ -126,17 +135,22 @@ ManagerMirror works with any AI that can read files. Full instructions are in [`
 |---------|-----------|
 | **Claude Code** | Install `skill/SKILL.md` → type `/managermirror` |
 | **GitHub Copilot** | Open project in VS Code → `@workspace` with `AGENTS.md` |
-| **OpenAI Codex / ChatGPT** | Upload `AGENTS.md` + relevant foundations files |
+| **ChatGPT** | Upload `AGENTS.md` + relevant foundations files |
 | **Hermes (Ollama)** | Use `AGENTS.md` as system prompt |
 
 ### Claude Code (full automation)
 
+Copy the skill to your Claude skills directory:
+
 ```bash
-# Copy skill to your Claude skills directory
-cp -r skill/ {claude_skills_dir}/managermirror/
+# macOS
+cp -r skill/ ~/Library/Application\ Support/Claude/claude_desktop_config/skills/managermirror/
+
+# Windows
+cp -r skill/ "$env:APPDATA\Claude\skills\managermirror\"
 ```
 
-Then in any session:
+Then in any Claude Code session:
 ```
 /managermirror
 ```
@@ -159,7 +173,7 @@ See [`AGENTS.md`](AGENTS.md) for step-by-step instructions for each tool.
 | Your profile | `users/{you}/profile/` | ❌ No |
 | Your principles | `users/{you}/principles/` | ❌ No |
 
-This means you can share the framework without sharing any of your personal data.
+You can share the framework without sharing any of your personal data.
 
 ---
 
