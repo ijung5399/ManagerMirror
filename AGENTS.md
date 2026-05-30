@@ -20,7 +20,7 @@ ManagerMirror/
 ├── AGENTS.md              ← you are here
 ├── skill/
 │   └── SKILL.md           ← Claude Code skill definition
-├── foundations/           ← knowledge base (11 files)
+├── foundations/           ← knowledge base (15 files)
 ├── template/              ← file format references
 └── users/                 ← personal data (gitignored, local only)
     └── {username}/
@@ -60,6 +60,7 @@ Load additional foundations by situation keywords (max 3):
 | delegation, micromanagement | `foundations/09_situational_leadership.md` |
 | "don't understand why they act this way" | `foundations/01_human_is_not_a_system.md` |
 | "faster if I do it myself" | `foundations/10_engineering_manager_traps.md` |
+| offsite, team building, offline gathering, 팀빌딩, 오프사이트, 다문화 팀, multicultural team, Chinese, Korean, Indian, Russian, Hong Kong | `foundations/15_team_offsite_and_teambuilding.md` |
 
 ### 2. Session structure: GROW model + Situation Stack
 
