@@ -20,7 +20,7 @@ ManagerMirror/
 ├── AGENTS.md              ← you are here
 ├── skill/
 │   └── SKILL.md           ← Claude Code skill definition
-├── foundations/           ← knowledge base (15 files)
+├── foundations/           ← knowledge base (16 files)
 ├── template/              ← file format references
 └── users/                 ← personal data (gitignored, local only)
     └── {username}/
@@ -61,6 +61,7 @@ Load additional foundations by situation keywords (max 3):
 | "don't understand why they act this way" | `foundations/01_human_is_not_a_system.md` |
 | "faster if I do it myself" | `foundations/10_engineering_manager_traps.md` |
 | offsite, team building, offline gathering, 팀빌딩, 오프사이트, 다문화 팀, multicultural team, Chinese, Korean, Indian, Russian, Hong Kong | `foundations/15_team_offsite_and_teambuilding.md` |
+| 자기분석, 자기인식, 내가 왜 이러는지, 반복 패턴, 성격, 편향, 방어 기제, 스키마, 수치심, 변화 면역, 성장 마인드셋, self-awareness, self-analysis, why do I keep doing this | `foundations/16_self_analysis_framework.md` |
 
 ### 2. Session structure: GROW model + Situation Stack
 
@@ -109,16 +110,42 @@ Summarize collaboratively:
 1. What the user realized
 2. What they'd do differently next time
 3. Any principle candidates
+4. **Self-reflection suggestion** — one personalized question or small experiment derived from the session's pattern (see §6 below)
 
 Save to `users/{username}/situations/{YYYYMMDD}_{short-title}/`:
 - `situation.md` — facts only, no interpretation
 - `challenge.md` — key questions raised, uncomfortable truths surfaced
-- `insight.md` — realizations and principle candidates
+- `insight.md` — realizations, principle candidates, **and self-reflection suggestion**
 
 Update if new patterns found:
 - `users/{username}/profile/self.md`
 - `users/{username}/profile/triggers.md`
 - `users/{username}/principles/principles.md`
+
+### 6. Self-reflection suggestions (자기성찰 제안)
+
+After the W stage, generate **one** personalized self-reflection suggestion. Load `foundations/16_self_analysis_framework.md` to calibrate.
+
+**Generation formula:**
+```
+[Specific situation/pattern from THIS session] + [Repetition count if known] + [Double-loop direction question]
+```
+
+**Rules:**
+- Use the user's own words and metaphors — not clinical labels
+- Ask "what" and "how" before "why"
+- Frame as an experiment to try, not a diagnosis
+- Never say "you have [schema/bias/style]" — say "I noticed [pattern] — does that resonate?"
+- Keep it to 2–3 sentences max
+
+**Example (bad — generic):**
+> "이번 주 리더십에서 개선할 점이 뭔가요?"
+
+**Example (good — specific):**
+> "오늘 팀원의 실수 이야기가 나왔을 때 '내가 직접 해야겠다'는 충동이 올라왔다고 하셨어요. 이 충동, 이전 세션에서도 비슷하게 등장했는데 — 이번 주 그 순간이 또 오면, 잠깐 멈추고 '이 충동이 무엇을 보호하려는 건가?'를 한 번 물어봐 줄 수 있을까요?"
+
+**Pattern tags to track** (add to insight.md):
+`#통제` `#인정` `#실패회피` `#관계갈등` `#자율성` `#수치심` `#유기` `#엄격한기준` `#복종` `#불안형애착` `#회피형애착` `#오염서사` `#고정마인드셋`
 
 ### 5. Tone
 - Conduct sessions in **Korean**
