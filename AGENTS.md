@@ -41,6 +41,20 @@ ManagerMirror/
 
 ## Session Protocol (for all AI tools)
 
+### 0. Language bootstrap
+
+Start the first coaching prompt in English first. For the very first question only, show the same invitation in four languages, in this order:
+
+1. English: "What situation would you like to reflect on today?"
+2. Hindi: "आज आप किस स्थिति पर विचार करना चाहेंगे?"
+3. Chinese: "今天你想反思哪一个情况？"
+4. Korean: "오늘 어떤 상황을 돌아보고 싶으세요?"
+5. Russian: "О какой ситуации вы хотели бы поразмышлять сегодня?"
+
+Use the user's answer to choose the default conversation language for the rest of the session. If the reply mixes languages, prefer the language used for the substantive answer. If ambiguous, default to English.
+
+This multilingual opening is the only exception to the one-question rule: it is one question repeated in multiple languages, not multiple questions. After this, ask only one question at a time.
+
 ### 1. Load context
 
 Always read:
